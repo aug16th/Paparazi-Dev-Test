@@ -1,0 +1,1381 @@
+﻿Log file open, 02/02/26 17:32:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Custom abort handler registered for crash reporting.
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Win64/UnrealTraceServer.exe')
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-49658320"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.2-49658320+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.2"
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.6466] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 7800X3D 8-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" Paparazi""
+LogCsvProfiler: Display: Metadata set : loginid="3a3745744c54d30f3a343998635d0cc7"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPakFile: Initializing PakPlatformFile
+LogIoDispatcher: Display: Reading toc: ../../../Paparazi/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../Paparazi/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../Paparazi/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../Paparazi/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../Paparazi/Content/Paks/Paparazi-Windows.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Paparazi/Content/Paks/Paparazi-Windows.pak.
+LogIoDispatcher: Display: Reading toc: ../../../Paparazi/Content/Paks/Paparazi-Windows.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../Paparazi/Content/Paks/Paparazi-Windows.utoc, Id=74aabeed29418666, Order=4, EntryCount=3716, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../Paparazi/Content/Paks/Paparazi-Windows.utoc' in location slot 0
+LogFilePackageStore: Mounting container: Id=74aabeed29418666, Order=4, NumPackages=1857
+LogPakFile: Display: Mounted IoStore container "../../../Paparazi/Content/Paks/Paparazi-Windows.utoc"
+LogPakFile: Display: Mounted Pak file '../../../Paparazi/Content/Paks/Paparazi-Windows.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.126514
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../Paparazi/AssetRegistry.bin'
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: OS requested locale 'en-US' is not supported. Using the OS requested language of 'en-US' as the locale.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-A0F24F1F4C6A9ECDD744CFADA8122C7E
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../Paparazi/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationLocomotionLibrary
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin AnimationWarping
+LogPluginManager: Mounting Engine plugin BlendStack
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin MotionWarping
+LogPluginManager: Mounting Engine plugin PoseSearch
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin Chooser
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GPUReshape
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin ContextualAnimation
+LogPluginManager: Mounting Engine plugin CurveExpression
+LogPluginManager: Mounting Engine plugin Locomotor
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin DrawDebugLibrary
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin TargetingSystem
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin Landmass
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LiveLinkControlRig
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin Mover
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Water
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemSteam
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin DataRegistry
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GameplayAbilities
+LogPluginManager: Mounting Engine plugin GameplayInteractions
+LogPluginManager: Mounting Engine plugin GameplayStateTree
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin NavCorridor
+LogPluginManager: Mounting Engine plugin NetworkPrediction
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SmartObjects
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin SteamShared
+LogPluginManager: Mounting Engine plugin SteamSockets
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebBrowserWidget
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin WorldConditions
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Project plugin AdvancedSessions
+LogPluginManager: Mounting Project plugin AdvancedSteamSessions
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - CVarHttpCurlReuseConnectionEnabled = true  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogSteamShared: Display: Loading Steam SDK 1.61
+LogSteamShared: Steam SDK Loaded!
+LogOnline: STEAM: Steam User is subscribed 1
+LogOnline: STEAM: [AppId: 2934090] Client API initialized 1
+LogOnline: OSS: Created online subsystem instance for: STEAM
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [STEAM]
+LogInit: ExecutableName: Paparazi.exe
+LogInit: Build: ++UE5+Release-5.7-CL-49658320
+LogInit: Platform=Windows
+LogInit: MachineId=3a3745744c54d30f3a343998635d0cc7
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.2-49658320+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: Windows 10 (22H2) [10.0.19045.6466] (), CPU: AMD Ryzen 7 7800X3D 8-Core Processor           , GPU: NVIDIA GeForce RTX 3060
+LogInit: CPU Model ID: 19612, microcode revision: 0
+LogInit: Compiled (64-bit): Jan  9 2026 22:07:27
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.44.35222.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/User/Documents/DevTests/Paparazi Dev Test/Windows/Paparazi/Binaries/Win64/
+LogInit: Allocator: Binned2
+LogInit: Installed Engine Build: 0
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 41
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 225
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 61
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-RigVM (DC49959B-53C0-4DE7-9156-EA885E7C5D39): 19
+LogDevObjectVersion:   Dev-ControlRig (A7820CFB-20A7-4359-8C54-2C149623CF50): 40
+LogDevObjectVersion:   Dev-IKRig (F6DFBB78-BB50-A0E4-4018-B84D60CBAF23): 11
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   Dev-Optimus (93EDE1AA-10CA-7375-4DF9-8A2849B157A0): 14
+LogDevObjectVersion:   FN-Main-InterchangePipeline (B69D2E47-E2A8-4003-BF77-18A492C4D899): 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: Set CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]]
+LogConfig: Set CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]]
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+LogConfig: Set CVar [[net.CurrentHandshakeVersion:2]]
+LogConfig: Set CVar [[net.MinHandshakeVersion:2]]
+LogConfig: Set CVar [[net.VerifyNetSessionID:0]]
+LogConfig: Set CVar [[net.VerifyNetClientID:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Substrate.RoughDiffuse:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Substrate.SheenQuality:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Substrate.ShadingQuality:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Substrate.TileCoord8bits:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Substrate.Glints:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Substrate.ClosuresPerPixel:4]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Refraction.Blur:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.RayTracing.RayTracingProxies.ProjectEnabled:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Substrate:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Substrate.ProjectGBufferFormat:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.GPUSkin.Support16BitBoneIndex:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluences:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[SkeletalMesh.UseExperimentalChunking:1]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Nanite.ProjectEnabled:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:2]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.Nanite:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[r.CustomDepth:3]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.02.02-09.32.50:970][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.02.02-09.32.50:970][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.02.02-09.32.50:970][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.02.02-09.32.50:971][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.02.02-09.32.50:971][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.02.02-09.32.50:971][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.02.02-09.32.50:971][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.02.02-09.32.50:971][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.02.02-09.32.50:971][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.02.02-09.32.50:971][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.02.02-09.32.50:971][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.02.02-09.32.50:971][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="BufferBloat",ToolTip="Simulates a connection affected by buffer bloat (in and out)")]] deferred - dummy variable created
+[2026.02.02-09.32.50:987][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="2560"
+[2026.02.02-09.32.50:987][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="1440"
+[2026.02.02-09.32.50:987][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MarkCoarsePagesLocal:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.HZB:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.ForegroundSampleRejectPower:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Dim:64]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Blur:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.02.02-09.32.50:987][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Precision:0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.02.02-09.32.50:988][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.02.02-09.32.50:988][  0]LogRHI: Using Default RHI: D3D11
+[2026.02.02-09.32.50:992][  0]LogRHI: Using Highest Feature Level of D3D11: SM5
+[2026.02.02-09.32.50:992][  0]LogRHI: Loading RHI module D3D11RHI
+[2026.02.02-09.32.50:992][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_1
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI: D3D11 adapters:
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI: Testing D3D11 Adapter 0:
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     VendorId    : 10de
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     DeviceId    : 2504
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     SubSysId    : 40e21458
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     Revision    : 00a1
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     DedicatedVideoMemory : 12703498240 bytes
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     SharedSystemMemory : 16721580032 bytes
+[2026.02.02-09.32.50:993][  0]LogD3D11RHI:     AdapterLuid : 0 226257
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_1)
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:       12115/0/15946 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de UMA:false
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI: Testing D3D11 Adapter 1:
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     Description : AMD Radeon(TM) Graphics
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     VendorId    : 1002
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     DeviceId    : 164e
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     SubSysId    : d0001458
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     Revision    : 00cb
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     DedicatedVideoMemory : 509427712 bytes
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     SharedSystemMemory : 16721580032 bytes
+[2026.02.02-09.32.51:147][  0]LogD3D11RHI:     AdapterLuid : 0 229918
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) Graphics' (Feature Level 11_1)
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:       485/0/15946 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002 UMA:true
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI: Testing D3D11 Adapter 2:
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     Description : Microsoft Basic Render Driver
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     VendorId    : 1414
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     DeviceId    : 008c
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     SubSysId    : 0000
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     Revision    : 0000
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     DedicatedVideoMemory : 0 bytes
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     SharedSystemMemory : 16721580032 bytes
+[2026.02.02-09.32.51:198][  0]LogD3D11RHI:     AdapterLuid : 0 229865
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_1)
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:       0/0/15946 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414 UMA:true
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     VendorId    : 10de
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     DeviceId    : 2504
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     SubSysId    : 40e21458
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     Revision    : 00a1
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     DedicatedVideoMemory : 12703498240 bytes
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     SharedSystemMemory : 16721580032 bytes
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI:     AdapterLuid : 0 226257
+[2026.02.02-09.32.51:201][  0]LogD3D11RHI: Integrated GPU (iGPU): false
+[2026.02.02-09.32.51:201][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2026.02.02-09.32.51:201][  0]LogInit: Selected Device Profile: [Windows]
+[2026.02.02-09.32.51:201][  0]LogHAL: Display: Platform has ~ 32 GB [33443160064 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.02.02-09.32.51:201][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.02.02-09.32.51:201][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.02.02-09.32.51:201][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.02.02-09.32.51:201][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.02.02-09.32.51:201][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.02.02-09.32.51:201][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.02.02-09.32.51:201][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.02.02-09.32.51:201][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.02.02-09.32.51:201][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.02.02-09.32.51:201][  0]LogConfig: Set CVar [[WindowsApplication.UseWorkerThreadForRawInput:0]]
+[2026.02.02-09.32.51:201][  0]LogInit: Computer: DESKTOP-8NN4ATN
+[2026.02.02-09.32.51:201][  0]LogInit: User: User
+[2026.02.02-09.32.51:201][  0]LogInit: CPU Page size=4096, Cores=8
+[2026.02.02-09.32.51:201][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.02.02-09.32.51:201][  0]LogInit: Handheld Device: 0
+[2026.02.02-09.32.51:201][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2026.02.02-09.32.51:201][  0]LogMemory: Memory total: Physical=31.1GB (32GB approx) Virtual=60.1GB
+[2026.02.02-09.32.51:201][  0]LogMemory: Platform Memory Stats for Windows
+[2026.02.02-09.32.51:201][  0]LogMemory: Process Physical Memory: 221.22 MB used, 241.72 MB peak
+[2026.02.02-09.32.51:201][  0]LogMemory: Process Virtual Memory: 158.54 MB used, 158.54 MB peak
+[2026.02.02-09.32.51:201][  0]LogMemory: Physical Memory: 22738.65 MB used,  9155.23 MB free, 31893.88 MB total
+[2026.02.02-09.32.51:201][  0]LogMemory: Virtual Memory: 48129.24 MB used,  13460.64 MB free, 61589.88 MB total
+[2026.02.02-09.32.51:201][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.02.02-09.32.51:206][  0]LogWindows: WindowsPlatformFeatures enabled
+[2026.02.02-09.32.51:206][  0]LogSpline: Registered spline type: TypeId=0x54E3AD22, Impl=MultiSpline, Value=Vector
+[2026.02.02-09.32.51:206][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.02.02-09.32.51:206][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.02.02-09.32.51:206][  0]LogInit: Using OS detected language (en-US).
+[2026.02.02-09.32.51:207][  0]LogInit: Using OS detected locale (en-US).
+[2026.02.02-09.32.51:207][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.02.02-09.32.51:253][  0]LogOnline: Warning: STEAM: Failed to obtain steam user stats, user: aug16th [0x11000011C8ACC59] has no stats entries
+[2026.02.02-09.32.51:253][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2026.02.02-09.32.51:253][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2026.02.02-09.32.51:253][  0]LogWindowsTextInputMethodSystem:   - Japanese (Japan) - Microsoft IME (TSF IME).
+[2026.02.02-09.32.51:253][  0]LogWindowsTextInputMethodSystem:   - English (United States) - Touch Input Correction (TSF IME).
+[2026.02.02-09.32.51:253][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2026.02.02-09.32.51:270][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetTouchpadParameters
+[2026.02.02-09.32.51:273][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.02.02-09.32.51:275][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2026.02.02-09.32.51:275][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.02.02-09.32.51:297][  0]LogRHI: Using Default RHI: D3D11
+[2026.02.02-09.32.51:297][  0]LogRHI: Using Highest Feature Level of D3D11: SM5
+[2026.02.02-09.32.51:297][  0]LogRHI: Loading RHI module D3D11RHI
+[2026.02.02-09.32.51:297][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2026.02.02-09.32.51:297][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2026.02.02-09.32.51:298][  0]LogWindows: Attached monitors:
+[2026.02.02-09.32.51:298][  0]LogWindows:     resolution: 900x1600, work area: (-900, 0) -> (0, 1570), device: '\\.\DISPLAY1'
+[2026.02.02-09.32.51:298][  0]LogWindows:     resolution: 2560x1440, work area: (0, 30) -> (2560, 1440), device: '\\.\DISPLAY2' [PRIMARY]
+[2026.02.02-09.32.51:298][  0]LogWindows: Found 2 attached monitors.
+[2026.02.02-09.32.51:298][  0]LogWindows: Gathering driver information using Windows Setup API
+[2026.02.02-09.32.51:298][  0]LogRHI: RHI Adapter Info:
+[2026.02.02-09.32.51:298][  0]LogRHI:             Name: NVIDIA GeForce RTX 3060
+[2026.02.02-09.32.51:298][  0]LogRHI:   Driver Version: 560.94 (internal:32.0.15.6094, unified:560.94)
+[2026.02.02-09.32.51:298][  0]LogRHI:      Driver Date: 8-14-2024
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
+[2026.02.02-09.32.51:298][  0]LogRHI: Texture pool is 8480 MB (70% of 12115 MB)
+[2026.02.02-09.32.51:298][  0]LogNvidiaAftermath: Nvidia Aftermath is disabled in D3D11 due to instability issues.
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     VendorId    : 10de
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     DeviceId    : 2504
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     SubSysId    : 40e21458
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     Revision    : 00a1
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     DedicatedVideoMemory : 12703498240 bytes
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     SharedSystemMemory : 16721580032 bytes
+[2026.02.02-09.32.51:298][  0]LogD3D11RHI:     AdapterLuid : 0 226257
+[2026.02.02-09.32.51:386][  0]LogNvidiaAftermath: Aftermath is not loaded.
+[2026.02.02-09.32.51:392][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2026.02.02-09.32.51:393][  0]LogD3D11RHI: Async texture creation enabled
+[2026.02.02-09.32.51:393][  0]LogD3D11RHI: D3D11_MAP_WRITE_NO_OVERWRITE for dynamic buffer SRVs is supported
+[2026.02.02-09.32.51:393][  0]LogD3D11RHI: Array index from any shader is supported
+[2026.02.02-09.32.51:401][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.02.02-09.32.51:406][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D11"
+[2026.02.02-09.32.51:406][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D11"
+[2026.02.02-09.32.51:406][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM5"
+[2026.02.02-09.32.51:406][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM5"
+[2026.02.02-09.32.51:406][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.02.02-09.32.51:412][  0]LogRendererCore: Ray tracing is disabled. Reason: not supported by current RHI.
+[2026.02.02-09.32.51:413][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Global. Total 4683 unique shaders.
+[2026.02.02-09.32.51:413][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2026.02.02-09.32.51:413][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2026.02.02-09.32.51:413][  0]LogTemp: Display: Clearing the OS Cache
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: Platform=PCD3D_SM5 (0)
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 1
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: ---
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: ---
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2026.02.02-09.32.51:418][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2026.02.02-09.32.51:431][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2026.02.02-09.32.51:431][  0]LogInit: XR: MultiViewport is Disabled
+[2026.02.02-09.32.51:431][  0]LogInit: XR: Mobile Multiview is Disabled
+[2026.02.02-09.32.51:441][  0]LogSlate: Using FreeType 2.10.0
+[2026.02.02-09.32.51:441][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.02.02-09.32.51:498][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Paparazi. Total 1195 unique shaders.
+[2026.02.02-09.32.51:498][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Paparazi
+[2026.02.02-09.32.51:498][  0]LogShaderLibrary: Display: Logical shader library 'Paparazi' has been created as a monolithic library
+[2026.02.02-09.32.51:498][  0]LogShaderLibrary: Display: Tried to open again shader library 'Paparazi', but could not find new components for it (existing components: 1).
+[2026.02.02-09.32.51:498][  0]LogInit: Using OS detected language (en-US).
+[2026.02.02-09.32.51:498][  0]LogInit: Using OS detected locale (en-US).
+[2026.02.02-09.32.51:498][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.02.02-09.32.51:498][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2026.02.02-09.32.51:498][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.02.02-09.32.51:498][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.02.02-09.32.51:499][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2026.02.02-09.32.51:680][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.02.02-09.32.51:680][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.02.02-09.32.51:681][  0]LogDeviceProfileManager: Active device profile: [00007FF3E4DE46F0][000001869EB6B6E0 82] Windows
+[2026.02.02-09.32.51:681][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Windows"
+[2026.02.02-09.32.51:682][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.02-09.32.51:683][  0]LogFilePackageStore: Updated: NewPackages=1857, OldPackages=0, TotalPackages=1858
+[2026.02.02-09.32.51:740][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.02.02-09.32.51:741][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.02.02-09.32.51:751][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.02.02-09.32.51:753][  0]LogPackageLocalizationCache: Processed 81 localized package path(s) for 1 prioritized culture(s) in 0.000189 seconds
+[2026.02.02-09.32.51:759][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.02.02-09.32.51:764][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.02.02-09.32.51:773][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2026.02.02-09.32.51:776][  0]LogMoviePlayer: Initializing movie player
+[2026.02.02-09.32.51:780][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: C2799209750E4151800000000000B100 | Instance: F22E377D4F3C7016C6A97999996672FD (DESKTOP-8NN4ATN-39732).
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3060 (Compute, Graphics)
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT: 1: AMD Radeon(TM) Graphics (Compute, Graphics)
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT:   NPU:       no
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT: Interface availability:
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT:   GPU: yes
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT:   RDG: no
+[2026.02.02-09.32.51:873][  0]LogNNERuntimeORT:   NPU: no
+[2026.02.02-09.32.51:944][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.02.02-09.32.51:944][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.02-09.32.51:944][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3060 (Compute, Graphics)
+[2026.02.02-09.32.51:944][  0]LogNNERuntimeORT: 1: AMD Radeon(TM) Graphics (Compute, Graphics)
+[2026.02.02-09.32.51:944][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.02.02-09.32.51:944][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.02.02-09.32.51:952][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.02.02-09.32.51:954][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.02.02-09.32.51:985][  0]LogWebBrowser: Loaded CEF3 version 128.4.13.3057 from C:/Users/User/Documents/DevTests/Paparazi Dev Test/Windows/Engine/Binaries/ThirdParty/CEF3/Win64/128.4.13+ge76af7e+chromium-128.0.6613.138
+[2026.02.02-09.32.51:986][  0]LogCEFBrowser: CEF GPU acceleration enabled
+[2026.02.02-09.32.52:068][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.02.02-09.32.52:069][  0]LogSockets: SteamSockets: Initializing Network Relay
+[2026.02.02-09.32.52:076][  0]LogSteamSocketsAPI: Verbose: SteamSockets API: Log Certificate expires in 47h46m at 1770196733 (current time 1770024772), will renew in 45h46m
+[2026.02.02-09.32.52:083][  0]LogUObjectArray: 31708 objects as part of root set at end of initial load.
+[2026.02.02-09.32.52:083][  0]LogUObjectArray: 4 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2026.02.02-09.32.52:083][  0]LogUObjectArray: CloseDisregardForGC: 31708/31708 objects in disregard for GC pool
+[2026.02.02-09.32.52:100][  0]LogEngine: Initializing Engine...
+[2026.02.02-09.32.52:113][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.02.02-09.32.52:113][  0]LogInit: Texture streaming: Enabled
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.02.02-09.32.52:114][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.02-09.32.52:114][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.02-09.32.52:114][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.02-09.32.52:114][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.02-09.32.52:114][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.02-09.32.52:114][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.02-09.32.52:114][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.02-09.32.52:114][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.02-09.32.52:117][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.02-09.32.52:162][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)'
+[2026.02.02-09.32.52:165][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Console', Device='Mic In (Elgato Wave:XLR)'
+[2026.02.02-09.32.52:168][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)'
+[2026.02.02-09.32.52:172][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Multimedia', Device='Mic In (Elgato Wave:XLR)'
+[2026.02.02-09.32.52:176][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Wave Link Aux 2 (Elgato Wave:XLR)'
+[2026.02.02-09.32.52:181][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Communications', Device='Mic In (Elgato Wave:XLR)'
+[2026.02.02-09.32.52:195][  0]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2026.02.02-09.32.52:196][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.02-09.32.52:196][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.02-09.32.52:196][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.02-09.32.52:197][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.02.02-09.32.52:197][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.02-09.32.52:197][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.02-09.32.52:197][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2026.02.02-09.32.52:197][  0]LogInit: FAudioDevice initialized with ID 1.
+[2026.02.02-09.32.52:198][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2026.02.02-09.32.52:198][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.02.02-09.32.52:203][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.02.02-09.32.52:206][  0]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2026.02.02-09.32.52:206][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.02.02-09.32.52:207][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.02-09.32.52:207][  0]LogInit: Display: Game Engine Initialized.
+[2026.02.02-09.32.52:207][  0]LogNetworkPrediction: ModelDefs Generic Kinematic Actor and MoverActor have same sort priority. Using lexical sort as backup
+[2026.02.02-09.32.52:207][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.02.02-09.32.52:213][  0]LogInit: Display: Starting Game.
+[2026.02.02-09.32.52:213][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Ohh_Bee/Startup_Map?Name=Player"
+[2026.02.02-09.32.52:213][  0]LogNet: Browse: /Game/Ohh_Bee/Startup_Map?Name=Player
+[2026.02.02-09.32.52:213][  0]LogLoad: LoadMap: /Game/Ohh_Bee/Startup_Map?Name=Player
+[2026.02.02-09.32.52:213][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2026.02.02-09.32.52:213][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.02.02-09.32.52:213][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.32.52:220][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.02-09.32.52:224][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2026.02.02-09.32.52:230][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Startup_Map'.
+[2026.02.02-09.32.52:231][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Startup_Map
+[2026.02.02-09.32.52:233][  0]LogLoad: Game class is 'BP_GameMode_C'
+[2026.02.02-09.32.52:233][  0]LogWorld: Bringing World /Game/Ohh_Bee/Startup_Map.Startup_Map up for play (max tick rate 0) at 2026.02.02-17.32.52
+[2026.02.02-09.32.52:233][  0]LogWorld: Bringing up level for play took: 0.000414
+[2026.02.02-09.32.52:234][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.02.02-09.32.52:234][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.02.02-09.32.52:234][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.02.02-09.32.52:234][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.02.02-09.32.52:235][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.02-09.32.52:236][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.02.02-09.32.52:236][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2026.02.02-09.32.52:237][  0]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.02.02-09.32.52:237][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.02.02-09.32.52:237][  0]LogLoad: Took 0.024499 seconds to LoadMap(/Game/Ohh_Bee/Startup_Map)
+[2026.02.02-09.32.52:237][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.32.52:238][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2026.02.02-09.32.52:279][  0]LogSteamSocketsAPI: Warning: SteamSockets API: Warning SDR network config fetch attempt #1 failed.  HTTP 504.  .  Trying again.
+[2026.02.02-09.32.52:279][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.02.02-09.32.52:305][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2026.02.02-09.32.52:306][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=32, PathHashSize=16, EntriesSize=32752, DirTreeIndexSize=158624, TotalSize=191424
+[2026.02.02-09.32.52:306][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2026.02.02-09.32.52:306][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2026.02.02-09.32.52:351][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.02.02-09.32.52:351][  0]LogLoad: (Engine Initialization) Total time: 1.79 seconds
+[2026.02.02-09.32.52:359][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.02.02-09.32.52:359][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.02.02-09.32.52:361][  0]LogSteamSocketsAPI: Verbose: SteamSockets API: Log Got SDR network config.  Loaded revision 1769806828 OK
+[2026.02.02-09.32.52:361][  0]LogSteamSocketsAPI: Verbose: SteamSockets API: Log Performing ping measurement
+[2026.02.02-09.32.52:361][  0]LogSteamSocketsAPI: Verbose: SteamSockets API: Log SDR RelayNetworkStatus:  avail=Attempting  config=OK  anyrelay=Attempting   (Performing ping measurement)
+[2026.02.02-09.32.52:361][  0]LogSteamSocketsAPI: Verbose: SteamSockets API: Log AuthStatus (steamid:76561198439124057):  OK  (OK)
+[2026.02.02-09.32.52:362][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.32.52:474][  0]LogSlate: Slate font cache was flushed
+[2026.02.02-09.32.52:474][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.32.52:474][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.32.52:474][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.32.52:474][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.32.52:485][  0]LogTrace: Display: Control listening on port 1985
+[2026.02.02-09.32.52:489][  1]LogSlate: Took 0.000878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.02.02-09.32.52:489][  1]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2026.02.02-09.32.52:490][  1]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2026.02.02-09.32.52:685][ 73]LogSteamSocketsAPI: Verbose: SteamSockets API: Log L4S detection: no.  up_ecn1=plain_extra(DSCPOther)  down_dscp45=plain_extra(DSCPOther)
+[2026.02.02-09.32.52:685][ 73]LogSteamSocketsAPI: Verbose: SteamSockets API: Log We will send ECN=0 (ECN config value=-1)
+[2026.02.02-09.32.54:246][774]LogBlueprintUserMessages: [WBP_Startup_C_2147482385] Searching
+[2026.02.02-09.32.54:639][948]LogOnlineSession: STEAM: Found 1 lobbies, finalizing the search
+[2026.02.02-09.32.54:639][948]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x18600006846D522], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2026.02.02-09.32.54:640][948]LogScript: Script Msg: Found a session. Ping is 9999
+[2026.02.02-09.32.55:896][514]LogSteamSocketsAPI: Verbose: SteamSockets API: Log Ping measurement completed in 3.5s.  Relays: 23 valid, 1 great, 5 good+, 7 ok+, 7 ignored
+[2026.02.02-09.32.55:896][514]LogSteamSocketsAPI: Verbose: SteamSockets API: Log Ping location: sgp=10+1/11+1,hkg4=39+3,hkg=39+3/40+1,maa2=55+5/42+1,bom2=67+6/60+1,tyo=81+8,dxb=162+16/88+1,seo=138+13/111+8,par=156+15,fra=168+16/165+15,iad=/233+15,gru=329+32
+[2026.02.02-09.32.55:896][514]LogSteamSocketsAPI: Verbose: SteamSockets API: Log SDR RelayNetworkStatus:  avail=OK  config=OK  anyrelay=OK   (OK.  Relays: 23 valid, 1 great, 5 good+, 7 ok+, 7 ignored)
+[2026.02.02-09.33.03:254][828]LogOnlineSession: STEAM: Using P2P Data for Connection Serialization
+[2026.02.02-09.33.03:254][829]LogOnlineSession: OSS: Join session: traveling to steam.76561199666643453:7777
+[2026.02.02-09.33.03:255][829]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2026.02.02-09.33.03:255][829]LogGameState: Match State Changed from InProgress to LeavingMap
+[2026.02.02-09.33.03:255][829]LogGlobalStatus: UEngine::Browse Started Browse: "steam.76561199666643453/Game/Ohh_Bee/Startup_Map"
+[2026.02.02-09.33.03:255][829]LogNet: Browse: steam.76561199666643453/Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.33.03:255][829]LogCsvProfiler: Display: Metadata set : iris="0"
+[2026.02.02-09.33.03:255][829]LogNet: InitBase PendingNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.02-09.33.03:256][829]LogNet: SteamSocketsNetConnection_2147482313 setting maximum channels to: 32767
+[2026.02.02-09.33.03:256][829]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.02-09.33.03:257][829]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 1
+[2026.02.02-09.33.03:257][829]LogSteamSocketsAPI: Warning: SteamSockets API: Warning [#333313283 P2P steamid:76561199666643453 vport 7777] Relay candidates enabled by P2P_Transport_ICE_Enable, but P2P_TURN_ServerList is empty
+[2026.02.02-09.33.03:259][829]LogSockets: SteamSockets: Now tracking socket 333313283 for addr 76561199666643453:7777, has parent? 0
+[2026.02.02-09.33.03:259][829]LogNet: Game client on port 7777, rate 100000
+[2026.02.02-09.33.03:259][829]LogNetVersion: Paparazi 1.0.0.0, NetCL: 47537391, EngineNetworkVersion: 43, GameNetworkVersion: 0 (Checksum: 2234029697)
+[2026.02.02-09.33.03:969][156]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P steamid:76561199666643453 vport 7777] finding route
+[2026.02.02-09.33.04:052][195]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P steamid:76561199666643453 vport 7777] Requesting session from sgp#6 (103.10.124.116:27020).  Ping = 21 = 10+1+10 (front+interior+remote).  Rank=1 Score=-1
+[2026.02.02-09.33.04:064][199]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P steamid:76561199666643453 vport 7777] Selecting sgp#6 (103.10.124.116:27020) as primary.  (Ping = 21 = 10+1+10 (front+interior+remote).  Rank=1 Score=23)
+[2026.02.02-09.33.04:079][207]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P SDR steamid:76561199666643453 vport 7777] Requesting session from hkg#326 (103.28.54.183:27018).  Ping = 80 = 39+31+10 (front+interior+remote).  Rank=2 Score=-1
+[2026.02.02-09.33.04:121][226]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P SDR steamid:76561199666643453 vport 7777] Selecting hkg#326 (103.28.54.183:27018) as backup #1 (Ping = 80 = 39+31+10 (front+interior+remote).  Rank=2 Score=84)
+[2026.02.02-09.33.04:121][226]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P SDR steamid:76561199666643453 vport 7777] connected
+[2026.02.02-09.33.04:123][227]LogSteamSocketsAPI: Verbose: SteamSockets API: Log DualWifi not detected.  We won't try again.  Didn't find any Dual-Wifi-capable Wifi adapters
+[2026.02.02-09.33.04:292][305]LogHandshake: Cached server SessionID: 0
+[2026.02.02-09.33.04:292][305]LogHandshake: SendChallengeResponse. Timestamp: 31.862305, Cookie: 168019147088114139112148217118252005156057078176007092220155
+[2026.02.02-09.33.04:318][318]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147482313, Driver: Name:PendingNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147482376, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.02.02-09.33.04:369][342]LogNet: Welcomed by server (Level: /Game/Kelalex/Maps/Demo, Game: /Game/Aug/BP_OniGamemode.BP_OniGamemode_C)
+[2026.02.02-09.33.04:369][342]LogLoad: LoadMap: steam.76561199666643453/Game/Kelalex/Maps/Demo?game=/Game/Aug/BP_OniGamemode.BP_OniGamemode_C
+[2026.02.02-09.33.04:369][342]LogWorld: BeginTearingDown for /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.33.04:370][342]LogOnlineSession: Warning: STEAM: Player aug16th [0x11000011C8ACC59] is not part of session (GameSession)
+[2026.02.02-09.33.04:370][342]LogOnlineSession: Warning: STEAM: Player aug16th [0x11000011C8ACC59] is not part of session (GameSession)
+[2026.02.02-09.33.04:370][342]LogWorld: UWorld::CleanupWorld for Startup_Map, bSessionEnded=true, bCleanupResources=true
+[2026.02.02-09.33.04:370][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.33.04:409][342]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.02-09.33.04:410][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.02.02-09.33.04:413][342]LogStreaming: Display: FlushAsyncLoading(71): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.02-09.33.04:542][342]LogAudio: Display: Audio Device (ID: 1) registered with world 'Demo'.
+[2026.02.02-09.33.04:542][342]LogChaosDD: Creating Chaos Debug Draw Scene for world Demo
+[2026.02.02-09.33.04:545][342]LogAudioMixer: Display: Registering submix SoundSubmix /Game/GASP/Audio/Mix/SM_Reverb.SM_Reverb.
+[2026.02.02-09.33.04:545][342]LogAudioMixer: Display: Registering submix SoundSubmix /Game/GASP/Audio/Mix/SM_Final.SM_Final.
+[2026.02.02-09.33.04:547][342]LogAudioMixer: Display: Registering submix SoundSubmix /Game/GASP/Audio/Mix/SM_Ambient.SM_Ambient.
+[2026.02.02-09.33.04:547][342]LogAudioMixer: Display: Registering submix SoundSubmix /Game/GASP/Audio/Mix/SM_Final.SM_Final.
+[2026.02.02-09.33.04:547][342]LogAudioMixer: Display: Registering submix SoundSubmix /Game/GASP/Audio/Mix/SM_Foley.SM_Foley.
+[2026.02.02-09.33.04:556][342]LogWorld: Bringing World /Game/Kelalex/Maps/Demo.Demo up for play (max tick rate 0) at 2026.02.02-17.33.04
+[2026.02.02-09.33.04:557][342]LogWorld: Bringing up level for play took: 0.011934
+[2026.02.02-09.33.04:557][342]LogLoad: Took 0.187680 seconds to LoadMap(/Game/Kelalex/Maps/Demo)
+[2026.02.02-09.33.04:557][342]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Kelalex/Maps/Demo
+[2026.02.02-09.33.04:557][342]LogGlobalStatus: UPendingNetGame::TravelCompleted Pending net game travel completed
+[2026.02.02-09.33.04:736][343]LogRenderer: Forcing update for all mesh draw commands: SkyLight change
+[2026.02.02-09.33.04:747][344]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_1
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.33.04:747][344]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.33.04:750][344]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.02.02-09.33.04:750][344]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.02.02-09.33.31:170][316]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.02.02-09.33.31:628][413]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.02.02-09.36.07:645][170]Command not recognized: stat pin
+[2026.02.02-09.36.16:276][ 65]LogStats: Display: There is no thread with id: 38580. Please add thread metadata for this thread.
+[2026.02.02-09.38.00:587][899]LogRenderer: Forcing update for all mesh draw commands: SkyLight change
+[2026.02.02-09.38.00:589][899]LogRenderer: Forcing update for all mesh draw commands: SkyLight change
+[2026.02.02-09.38.43:484][525]LogCharacterMovement: BP_Oni_C_2147482131 is stuck and failed to move! Velocity: X=1.59 Y=-16.75 Z=0.00 Location: X=-1530.46 Y=491.20 Z=17.70 Normal: X=0.02 Y=1.00 Z=0.00 PenetrationDepth:0.010 Actor:BP_OutfitBase_C_3 Component:Box BoneName:None (0 other events since notify)
+[2026.02.02-09.39.01:188][505]t.MaxFPS = "60"
+[2026.02.02-09.39.02:988][613]LogCharacterMovement: BP_Oni_C_2147482131 is stuck and failed to move! Velocity: X=22.43 Y=-123.79 Z=0.00 Location: X=-1529.82 Y=488.81 Z=17.70 Normal: X=0.07 Y=1.00 Z=-0.00 PenetrationDepth:0.010 Actor:BP_OutfitBase_C_3 Component:Box BoneName:None (1 other events since notify)
+[2026.02.02-09.41.28:644][349]p.NetShowCorrections = "1"
+[2026.02.02-09.41.30:460][458]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=25.618 is 1.771 LocDiff(X=-1.459 Y=1.002 Z=-0.050) ClientLoc(X=-2143.099 Y=684.724 Z=17.650) ServerLoc(X=-2141.640 Y=683.721 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-17.587 Y=115.762 Z=0.000) ServerVel(X=25.639 Y=12.078 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.30:610][467]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=25.752 is 1.806 LocDiff(X=0.619 Y=-1.696 Z=0.000) ClientLoc(X=-2138.239 Y=688.764 Z=17.700) ServerLoc(X=-2138.858 Y=690.460 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=18.505 Y=97.667 Z=0.000) ServerVel(X=18.082 Y=87.372 Z=0.000) SavedMoves 2
+[2026.02.02-09.41.30:710][473]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=25.868 is 6.488 LocDiff(X=3.906 Y=-5.180 Z=0.000) ClientLoc(X=-2134.931 Y=704.285 Z=17.700) ServerLoc(X=-2138.837 Y=709.465 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-10.837 Y=206.331 Z=0.000) ServerVel(X=-17.080 Y=227.452 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.31:811][539]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=26.969 is 2.191 LocDiff(X=-2.155 Y=-0.396 Z=-0.050) ClientLoc(X=-2189.035 Y=818.696 Z=17.650) ServerLoc(X=-2186.880 Y=819.091 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-156.440 Y=-5.553 Z=0.000) ServerVel(X=-9.924 Y=27.725 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.32:294][568]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=27.452 is 2.362 LocDiff(X=1.989 Y=1.273 Z=0.000) ClientLoc(X=-2203.409 Y=823.263 Z=17.700) ServerLoc(X=-2205.399 Y=821.990 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-47.069 Y=-30.907 Z=0.000) ServerVel(X=-86.103 Y=-32.643 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.32:394][574]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=27.552 is 4.927 LocDiff(X=2.958 Y=3.941 Z=0.000) ClientLoc(X=-2210.614 Y=819.442 Z=17.700) ServerLoc(X=-2213.572 Y=815.501 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-100.165 Y=-97.775 Z=0.000) ServerVel(X=-106.908 Y=-88.581 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.32:511][581]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=27.669 is 9.556 LocDiff(X=3.672 Y=8.822 Z=0.000) ClientLoc(X=-2224.908 Y=808.455 Z=17.700) ServerLoc(X=-2228.580 Y=799.633 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-55.185 Y=-119.646 Z=0.000) ServerVel(X=-106.131 Y=-175.872 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.32:644][589]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=27.785 is 3.332 LocDiff(X=-0.981 Y=3.184 Z=0.000) ClientLoc(X=-2234.099 Y=795.296 Z=17.700) ServerLoc(X=-2233.118 Y=792.112 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 2
+[2026.02.02-09.41.34:028][672]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=29.185 is 1.990 LocDiff(X=1.286 Y=-1.518 Z=-0.050) ClientLoc(X=-2327.954 Y=733.059 Z=17.650) ServerLoc(X=-2329.240 Y=734.577 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=43.326 Y=-237.634 Z=0.000) ServerVel(X=16.627 Y=-195.635 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.35:944][787]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=31.102 is 2.131 LocDiff(X=-0.028 Y=-2.131 Z=0.000) ClientLoc(X=-2246.669 Y=701.501 Z=17.700) ServerLoc(X=-2246.641 Y=703.632 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-37.378 Y=60.908 Z=0.000) ServerVel(X=-42.495 Y=71.486 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.36:060][794]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=31.202 is 5.698 LocDiff(X=1.269 Y=-5.555 Z=0.000) ClientLoc(X=-2250.258 Y=708.734 Z=17.700) ServerLoc(X=-2251.527 Y=714.289 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-46.116 Y=157.362 Z=0.000) ServerVel(X=-55.159 Y=125.497 Z=0.000) SavedMoves 2
+[2026.02.02-09.41.36:160][800]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=31.319 is 6.773 LocDiff(X=-0.180 Y=-6.771 Z=0.000) ClientLoc(X=-2261.360 Y=726.339 Z=17.700) ServerLoc(X=-2261.181 Y=733.110 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-82.103 Y=186.439 Z=0.000) ServerVel(X=-98.931 Y=201.698 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.36:277][807]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=31.435 is 2.909 LocDiff(X=-0.582 Y=-2.850 Z=0.000) ClientLoc(X=-2262.597 Y=739.917 Z=17.700) ServerLoc(X=-2262.015 Y=742.768 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.38:594][946]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=33.735 is 2.257 LocDiff(X=1.182 Y=-1.923 Z=0.000) ClientLoc(X=-2087.065 Y=719.422 Z=17.700) ServerLoc(X=-2088.247 Y=721.345 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=32.036 Y=232.504 Z=0.000) ServerVel(X=30.352 Y=217.713 Z=0.000) SavedMoves 2
+[2026.02.02-09.41.40:261][ 46]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=35.419 is 2.654 LocDiff(X=0.404 Y=-2.623 Z=-0.007) ClientLoc(X=-1837.200 Y=737.919 Z=17.692) ServerLoc(X=-1837.604 Y=740.543 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=37.658 Y=-178.856 Z=0.000) ServerVel(X=-42.051 Y=-57.816 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.44:012][271]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=39.169 is 1.762 LocDiff(X=0.903 Y=-1.513 Z=-0.001) ClientLoc(X=-1817.606 Y=673.851 Z=17.699) ServerLoc(X=-1818.510 Y=675.364 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=320.348 Y=-91.150 Z=0.000) ServerVel(X=289.107 Y=-117.682 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.44:261][286]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=39.419 is 1.764 LocDiff(X=-1.726 Y=-0.361 Z=0.000) ClientLoc(X=-1761.867 Y=718.582 Z=17.700) ServerLoc(X=-1760.141 Y=718.942 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-47.158 Y=397.204 Z=0.000) ServerVel(X=4.902 Y=399.964 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.53:717][853]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=48.875 is 2.926 LocDiff(X=-1.762 Y=-2.336 Z=-0.000) ClientLoc(X=-1735.907 Y=692.963 Z=17.699) ServerLoc(X=-1734.145 Y=695.299 Z=17.699) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=164.417 Y=-91.966 Z=0.000) ServerVel(X=233.044 Y=4.524 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.53:834][860]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=48.991 is 15.212 LocDiff(X=-12.437 Y=-8.758 Z=0.000) ClientLoc(X=-1710.959 Y=687.982 Z=17.699) ServerLoc(X=-1698.522 Y=696.740 Z=17.699) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=151.724 Y=-23.388 Z=0.000) ServerVel(X=287.598 Y=16.417 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.57:234][ 64]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=52.391 is 2.431 LocDiff(X=-0.423 Y=-0.565 Z=2.327) ClientLoc(X=-1509.290 Y=532.505 Z=20.026) ServerLoc(X=-1508.867 Y=533.070 Z=17.699) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=43.644 Y=-45.133 Z=0.000) ServerVel(X=48.840 Y=0.006 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.58:101][116]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.258 is 1.797 LocDiff(X=0.180 Y=-1.788 Z=-0.049) ClientLoc(X=-1544.712 Y=491.173 Z=17.650) ServerLoc(X=-1544.892 Y=492.961 Z=17.699) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=22.648 Y=-16.425 Z=0.000) ServerVel(X=21.095 Y=-0.379 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.58:201][122]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.358 is 4.089 LocDiff(X=-0.107 Y=-4.088 Z=0.000) ClientLoc(X=-1542.427 Y=488.859 Z=17.699) ServerLoc(X=-1542.320 Y=492.946 Z=17.699) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=25.873 Y=-46.160 Z=0.000) ServerVel(X=28.317 Y=-0.031 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.58:318][129]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.475 is 4.612 LocDiff(X=-0.081 Y=-4.611 Z=0.000) ClientLoc(X=-1538.805 Y=488.332 Z=17.699) ServerLoc(X=-1538.724 Y=492.944 Z=17.699) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=11.943 Y=-7.980 Z=0.000) ServerVel(X=32.233 Y=-0.036 Z=0.000) SavedMoves 1
+[2026.02.02-09.41.59:035][172]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=54.191 is 1.862 LocDiff(X=1.801 Y=0.300 Z=0.365) ClientLoc(X=-1528.900 Y=504.645 Z=18.064) ServerLoc(X=-1530.701 Y=504.345 Z=17.699) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=84.492 Y=42.336 Z=0.000) ServerVel(X=-0.010 Y=39.858 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.00:651][269]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=55.791 is 2.055 LocDiff(X=-2.054 Y=0.024 Z=-0.049) ClientLoc(X=-1832.566 Y=696.345 Z=17.650) ServerLoc(X=-1830.512 Y=696.321 Z=17.699) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-399.888 Y=9.477 Z=0.000) ServerVel(X=-352.335 Y=41.863 Z=0.000) SavedMoves 2
+[2026.02.02-09.42.02:818][399]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=57.975 is 2.912 LocDiff(X=0.399 Y=-2.884 Z=-0.000) ClientLoc(X=-2235.920 Y=371.522 Z=17.700) ServerLoc(X=-2236.319 Y=374.407 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=22.348 Y=-84.468 Z=0.000) ServerVel(X=14.048 Y=0.705 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.02:935][406]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=58.092 is 6.484 LocDiff(X=-0.029 Y=-6.484 Z=-0.000) ClientLoc(X=-2233.985 Y=367.926 Z=17.700) ServerLoc(X=-2233.956 Y=374.410 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=13.498 Y=-24.915 Z=0.000) ServerVel(X=24.922 Y=-0.086 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.03:035][412]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=58.192 is 7.541 LocDiff(X=0.019 Y=-7.541 Z=-0.000) ClientLoc(X=-2231.106 Y=366.864 Z=17.700) ServerLoc(X=-2231.124 Y=374.405 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=32.918 Y=-138.463 Z=0.000) ServerVel(X=30.220 Y=-0.034 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.05:151][539]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=60.308 is 1.757 LocDiff(X=-1.697 Y=0.438 Z=0.135) ClientLoc(X=-2327.210 Y=727.932 Z=17.835) ServerLoc(X=-2325.514 Y=727.495 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=99.447 Y=-49.055 Z=0.000) ServerVel(X=98.557 Y=-29.774 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.05:285][547]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=60.425 is 2.431 LocDiff(X=-1.318 Y=-2.042 Z=0.000) ClientLoc(X=-2304.487 Y=724.955 Z=17.700) ServerLoc(X=-2303.169 Y=726.998 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=302.364 Y=24.342 Z=0.000) ServerVel(X=264.788 Y=20.649 Z=0.000) SavedMoves 2
+[2026.02.02-09.42.27:169][860]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=82.313 is 1.864 LocDiff(X=1.816 Y=-0.300 Z=0.296) ClientLoc(X=-2183.842 Y=854.542 Z=17.996) ServerLoc(X=-2185.657 Y=854.841 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=52.817 Y=-12.820 Z=0.000) ServerVel(X=30.967 Y=-3.627 Z=0.000) SavedMoves 2
+[2026.02.02-09.42.27:302][868]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=82.446 is 1.840 LocDiff(X=0.215 Y=1.828 Z=0.000) ClientLoc(X=-2179.259 Y=851.078 Z=17.700) ServerLoc(X=-2179.474 Y=849.251 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=15.198 Y=-13.362 Z=0.000) ServerVel(X=56.976 Y=-90.712 Z=0.000) SavedMoves 2
+[2026.02.02-09.42.28:302][928]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=83.463 is 1.836 LocDiff(X=1.742 Y=-0.580 Z=0.000) ClientLoc(X=-2202.361 Y=792.009 Z=17.700) ServerLoc(X=-2204.103 Y=792.589 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-130.821 Y=-111.705 Z=0.000) ServerVel(X=-129.635 Y=-101.890 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.28:419][935]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=83.563 is 2.942 LocDiff(X=2.523 Y=-1.514 Z=0.000) ClientLoc(X=-2219.077 Y=781.036 Z=17.700) ServerLoc(X=-2221.600 Y=782.550 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-76.405 Y=-48.713 Z=0.000) ServerVel(X=-153.747 Y=-76.360 Z=0.000) SavedMoves 2
+[2026.02.02-09.42.38:002][510]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=93.165 is 1.787 LocDiff(X=1.242 Y=1.275 Z=0.154) ClientLoc(X=-2161.555 Y=649.721 Z=17.854) ServerLoc(X=-2162.797 Y=648.446 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=91.332 Y=-238.715 Z=0.000) ServerVel(X=81.413 Y=-229.394 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.50:652][269]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=105.818 is 2.004 LocDiff(X=1.024 Y=-1.723 Z=0.000) ClientLoc(X=-1917.398 Y=733.373 Z=17.700) ServerLoc(X=-1918.422 Y=735.095 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=110.071 Y=42.132 Z=0.000) ServerVel(X=9.978 Y=52.332 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.51:472][318]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=106.637 is 1.882 LocDiff(X=1.880 Y=0.073 Z=0.000) ClientLoc(X=-1867.345 Y=749.695 Z=17.700) ServerLoc(X=-1869.225 Y=749.623 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=270.153 Y=37.642 Z=0.000) ServerVel(X=233.642 Y=31.699 Z=0.000) SavedMoves 1
+[2026.02.02-09.42.52:076][355]LogSteamSocketsAPI: Verbose: SteamSockets API: Log Certificate expires in 47h36m at 1770196733 (current time 1770025372), will renew in 45h36m
+[2026.02.02-09.43.15:724][773]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=130.876 is 1.877 LocDiff(X=-1.035 Y=1.566 Z=-0.000) ClientLoc(X=-1920.184 Y=710.185 Z=17.700) ServerLoc(X=-1919.149 Y=708.620 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-61.107 Y=131.531 Z=0.000) ServerVel(X=-83.934 Y=180.452 Z=0.000) SavedMoves 2
+[2026.02.02-09.43.18:791][957]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=133.959 is 1.958 LocDiff(X=0.353 Y=-1.926 Z=0.042) ClientLoc(X=-2222.671 Y=655.988 Z=17.742) ServerLoc(X=-2223.025 Y=657.914 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=111.864 Y=-150.076 Z=0.000) ServerVel(X=93.256 Y=0.221 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.18:907][964]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=134.076 is 1.886 LocDiff(X=0.132 Y=1.882 Z=0.000) ClientLoc(X=-2213.480 Y=654.389 Z=17.700) ServerLoc(X=-2213.612 Y=652.507 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=87.782 Y=-80.411 Z=0.000) ServerVel(X=76.330 Y=-101.361 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.19:008][970]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=134.176 is 4.825 LocDiff(X=2.238 Y=4.275 Z=0.000) ClientLoc(X=-2203.571 Y=639.252 Z=17.700) ServerLoc(X=-2205.809 Y=634.977 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=86.597 Y=-225.603 Z=0.000) ServerVel(X=72.700 Y=-241.731 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.21:723][133]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=136.892 is 1.869 LocDiff(X=1.436 Y=-1.195 Z=-0.000) ClientLoc(X=-2193.292 Y=373.208 Z=17.700) ServerLoc(X=-2194.729 Y=374.403 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=50.843 Y=-73.673 Z=0.000) ServerVel(X=56.130 Y=-0.109 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.21:840][140]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=137.009 is 4.855 LocDiff(X=0.025 Y=-4.855 Z=-0.000) ClientLoc(X=-2192.124 Y=369.542 Z=17.700) ServerLoc(X=-2192.149 Y=374.397 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-39.760 Y=-59.970 Z=0.000) ServerVel(X=-22.552 Y=0.669 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.21:941][146]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=137.109 is 5.209 LocDiff(X=0.179 Y=-5.206 Z=-0.000) ClientLoc(X=-2193.601 Y=369.185 Z=17.700) ServerLoc(X=-2193.779 Y=374.391 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.24:578][304]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=139.745 is 1.904 LocDiff(X=1.556 Y=1.098 Z=0.000) ClientLoc(X=-2180.386 Y=293.212 Z=17.700) ServerLoc(X=-2181.942 Y=292.115 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-93.019 Y=-100.012 Z=0.000) ServerVel(X=-107.500 Y=-98.693 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.24:910][324]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=140.078 is 1.774 LocDiff(X=-1.590 Y=0.787 Z=-0.000) ClientLoc(X=-2256.648 Y=271.185 Z=17.700) ServerLoc(X=-2255.058 Y=270.398 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-14.489 Y=-3.085 Z=0.000) ServerVel(X=-42.273 Y=-9.459 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.26:427][415]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=141.594 is 1.913 LocDiff(X=-1.122 Y=1.549 Z=0.000) ClientLoc(X=-2251.176 Y=298.961 Z=17.700) ServerLoc(X=-2250.054 Y=297.411 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=7.202 Y=-20.547 Z=0.000) ServerVel(X=14.292 Y=-31.003 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.30:494][659]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=145.643 is 1.744 LocDiff(X=1.515 Y=0.864 Z=0.000) ClientLoc(X=-2185.765 Y=289.203 Z=17.700) ServerLoc(X=-2187.280 Y=288.338 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=390.166 Y=29.812 Z=0.000) ServerVel(X=341.748 Y=-0.013 Z=0.000) SavedMoves 2
+[2026.02.02-09.43.31:094][695]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=146.260 is 2.004 LocDiff(X=1.539 Y=-1.284 Z=0.000) ClientLoc(X=-2176.694 Y=364.836 Z=17.700) ServerLoc(X=-2178.232 Y=366.120 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-20.348 Y=48.180 Z=0.000) ServerVel(X=-32.000 Y=65.249 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.31:261][705]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=146.426 is 1.955 LocDiff(X=1.801 Y=0.760 Z=-0.001) ClientLoc(X=-2191.423 Y=375.883 Z=17.699) ServerLoc(X=-2193.224 Y=375.122 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-33.236 Y=19.697 Z=0.000) ServerVel(X=-90.726 Y=23.280 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.34:478][898]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=149.626 is 2.033 LocDiff(X=1.989 Y=-0.392 Z=0.150) ClientLoc(X=-2300.287 Y=777.384 Z=17.850) ServerLoc(X=-2302.276 Y=777.776 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=31.537 Y=77.995 Z=0.000) ServerVel(X=16.752 Y=114.890 Z=0.000) SavedMoves 2
+[2026.02.02-09.43.35:311][948]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=150.476 is 1.870 LocDiff(X=1.818 Y=0.438 Z=0.000) ClientLoc(X=-2258.803 Y=817.895 Z=17.700) ServerLoc(X=-2260.622 Y=817.457 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=190.437 Y=75.327 Z=0.000) ServerVel(X=164.971 Y=3.403 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.35:544][962]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=150.709 is 1.783 LocDiff(X=0.276 Y=-1.761 Z=0.000) ClientLoc(X=-2228.969 Y=850.640 Z=17.700) ServerLoc(X=-2229.245 Y=852.402 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=30.584 Y=71.799 Z=0.000) ServerVel(X=44.518 Y=109.201 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.39:645][208]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=154.808 is 1.813 LocDiff(X=1.755 Y=-0.454 Z=-0.025) ClientLoc(X=-1719.018 Y=746.970 Z=17.675) ServerLoc(X=-1720.773 Y=747.424 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=61.797 Y=-21.886 Z=0.000) ServerVel(X=45.629 Y=-8.093 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.40:461][257]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=155.624 is 2.328 LocDiff(X=-2.079 Y=-1.048 Z=-0.001) ClientLoc(X=-1709.936 Y=728.160 Z=17.699) ServerLoc(X=-1707.857 Y=729.208 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-152.637 Y=-32.205 Z=0.000) ServerVel(X=-0.112 Y=-25.451 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.40:760][275]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=155.908 is 1.767 LocDiff(X=-0.036 Y=-1.766 Z=0.000) ClientLoc(X=-1709.328 Y=702.279 Z=17.700) ServerLoc(X=-1709.292 Y=704.045 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-103.334 Y=-246.770 Z=0.000) ServerVel(X=-54.222 Y=-205.490 Z=0.000) SavedMoves 2
+[2026.02.02-09.43.41:594][325]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=156.757 is 1.885 LocDiff(X=-0.347 Y=-1.852 Z=-0.056) ClientLoc(X=-1763.723 Y=714.577 Z=17.644) ServerLoc(X=-1763.375 Y=716.428 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-112.103 Y=321.729 Z=0.000) ServerVel(X=-113.615 Y=321.279 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.43:244][424]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=158.407 is 1.863 LocDiff(X=-1.742 Y=-0.660 Z=0.000) ClientLoc(X=-1761.707 Y=716.355 Z=17.700) ServerLoc(X=-1759.965 Y=717.016 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-8.604 Y=-270.444 Z=0.000) ServerVel(X=-0.354 Y=-250.759 Z=0.000) SavedMoves 1
+[2026.02.02-09.43.58:578][344]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=173.737 is 1.783 LocDiff(X=-1.289 Y=-1.230 Z=0.039) ClientLoc(X=-1928.024 Y=726.750 Z=17.739) ServerLoc(X=-1926.735 Y=727.980 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-132.576 Y=377.390 Z=0.000) ServerVel(X=-127.101 Y=379.269 Z=0.000) SavedMoves 1
+[2026.02.02-09.44.00:378][452]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=175.520 is 1.734 LocDiff(X=1.148 Y=1.300 Z=-0.000) ClientLoc(X=-1783.069 Y=696.935 Z=17.700) ServerLoc(X=-1784.217 Y=695.635 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=18.090 Y=-0.015 Z=0.000) SavedMoves 2
+[2026.02.02-09.44.09:905][ 23]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=185.045 is 2.127 LocDiff(X=0.182 Y=2.119 Z=0.000) ClientLoc(X=-1823.637 Y=697.733 Z=17.700) ServerLoc(X=-1823.819 Y=695.614 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-38.556 Y=180.586 Z=0.000) ServerVel(X=-31.263 Y=0.069 Z=0.000) SavedMoves 2
+[2026.02.02-09.44.20:123][636]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=195.276 is 1.788 LocDiff(X=-0.345 Y=-1.755 Z=0.000) ClientLoc(X=-289.811 Y=-503.188 Z=17.700) ServerLoc(X=-289.466 Y=-501.434 Z=17.700) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-29.590 Y=-182.634 Z=0.000) ServerVel(X=-37.982 Y=-151.927 Z=0.000) SavedMoves 1
+[2026.02.02-09.44.25:623][966]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=200.775 is 16.211 LocDiff(X=-16.047 Y=-1.633 Z=1.620) ClientLoc(X=-271.600 Y=-483.730 Z=58.813) ServerLoc(X=-255.554 Y=-482.097 Z=57.193) NewBase: None NewBone: None ClientVel(X=-181.648 Y=303.408 Z=-89.829) ServerVel(X=17.472 Y=175.979 Z=-64.375) SavedMoves 1
+[2026.02.02-09.45.13:597][844]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=8.740 is 26.116 LocDiff(X=-5.595 Y=-25.092 Z=4.594) ClientLoc(X=-258.043 Y=-507.689 Z=61.787) ServerLoc(X=-252.448 Y=-482.597 Z=57.193) NewBase: None NewBone: None ClientVel(X=111.959 Y=318.512 Z=83.667) ServerVel(X=38.817 Y=172.526 Z=-64.375) SavedMoves 1
+[2026.02.02-09.45.31:282][905]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=26.425 is 13.749 LocDiff(X=-5.354 Y=-7.255 Z=-10.379) ClientLoc(X=-289.602 Y=-514.628 Z=46.813) ServerLoc(X=-284.248 Y=-507.372 Z=57.193) NewBase: None NewBone: None ClientVel(X=-390.622 Y=-86.073 Z=-89.833) ServerVel(X=-176.774 Y=4.879 Z=-64.375) SavedMoves 1
+[2026.02.02-09.45.57:372][470]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=52.497 is 1.934 LocDiff(X=-0.076 Y=0.272 Z=1.913) ClientLoc(X=-1483.843 Y=485.057 Z=19.563) ServerLoc(X=-1483.767 Y=484.785 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-60.493 Y=-95.553 Z=0.000) ServerVel(X=-47.624 Y=-89.673 Z=0.000) SavedMoves 2
+[2026.02.02-09.45.57:955][505]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.081 is 2.866 LocDiff(X=-2.866 Y=0.024 Z=0.000) ClientLoc(X=-1498.773 Y=474.632 Z=17.650) ServerLoc(X=-1495.906 Y=474.608 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-140.862 Y=-12.418 Z=0.000) ServerVel(X=0.008 Y=-16.625 Z=0.000) SavedMoves 2
+[2026.02.02-09.45.58:072][512]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.197 is 6.838 LocDiff(X=-6.811 Y=0.611 Z=0.000) ClientLoc(X=-1502.717 Y=474.070 Z=17.650) ServerLoc(X=-1495.906 Y=473.460 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-17.459 Y=18.149 Z=0.000) ServerVel(X=0.003 Y=-6.224 Z=0.000) SavedMoves 2
+[2026.02.02-09.45.58:173][518]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.314 is 7.323 LocDiff(X=-7.302 Y=0.550 Z=-0.000) ClientLoc(X=-1503.208 Y=473.574 Z=17.650) ServerLoc(X=-1495.906 Y=473.024 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-94.788 Y=11.100 Z=0.000) ServerVel(X=0.001 Y=-2.401 Z=0.000) SavedMoves 1
+[2026.02.02-09.45.58:289][525]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.431 is 8.191 LocDiff(X=-8.184 Y=0.331 Z=0.000) ClientLoc(X=-1504.090 Y=473.182 Z=17.650) ServerLoc(X=-1495.905 Y=472.851 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-162.494 Y=2.661 Z=0.000) ServerVel(X=0.000 Y=-0.995 Z=0.000) SavedMoves 1
+[2026.02.02-09.45.58:406][532]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.547 is 5.520 LocDiff(X=-5.492 Y=0.557 Z=0.000) ClientLoc(X=-1501.398 Y=473.331 Z=17.650) ServerLoc(X=-1495.905 Y=472.774 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-41.681 Y=11.968 Z=0.000) ServerVel(X=0.000 Y=-0.478 Z=0.000) SavedMoves 1
+[2026.02.02-09.45.58:506][538]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.647 is 5.077 LocDiff(X=-5.065 Y=0.350 Z=0.000) ClientLoc(X=-1500.971 Y=473.088 Z=17.650) ServerLoc(X=-1495.905 Y=472.738 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-28.630 Y=13.181 Z=0.000) ServerVel(X=0.000 Y=-0.305 Z=0.000) SavedMoves 1
+[2026.02.02-09.45.58:622][545]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=53.747 is 5.034 LocDiff(X=-5.030 Y=0.220 Z=0.000) ClientLoc(X=-1500.935 Y=472.935 Z=17.650) ServerLoc(X=-1495.905 Y=472.716 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 2
+[2026.02.02-09.45.58:922][563]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=54.047 is 3.318 LocDiff(X=-0.337 Y=1.642 Z=2.864) ClientLoc(X=-1494.119 Y=478.517 Z=20.514) ServerLoc(X=-1493.782 Y=476.875 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=19.001 Y=85.829 Z=0.000) ServerVel(X=30.506 Y=7.777 Z=0.000) SavedMoves 2
+[2026.02.02-09.45.59:039][570]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=54.164 is 9.027 LocDiff(X=0.531 Y=7.155 Z=5.479) ClientLoc(X=-1488.084 Y=486.215 Z=23.129) ServerLoc(X=-1488.615 Y=479.060 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=54.367 Y=151.360 Z=0.000) ServerVel(X=57.544 Y=35.260 Z=0.000) SavedMoves 2
+[2026.02.02-09.45.59:506][598]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=54.647 is 1.781 LocDiff(X=-1.206 Y=1.310 Z=0.000) ClientLoc(X=-1482.066 Y=505.883 Z=17.650) ServerLoc(X=-1480.860 Y=504.573 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=7.670 Y=266.333 Z=0.000) ServerVel(X=14.453 Y=236.544 Z=0.000) SavedMoves 1
+[2026.02.02-09.47.00:801][275]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=115.953 is 1.740 LocDiff(X=-0.136 Y=1.735 Z=0.000) ClientLoc(X=-226.224 Y=-504.939 Z=17.650) ServerLoc(X=-226.089 Y=-506.674 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=9.431 Y=-128.934 Z=0.000) ServerVel(X=8.452 Y=-126.596 Z=0.000) SavedMoves 1
+[2026.02.02-09.47.04:234][481]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=119.387 is 49.572 LocDiff(X=-0.002 Y=-0.002 Z=-49.572) ClientLoc(X=-258.136 Y=-508.095 Z=51.371) ServerLoc(X=-258.135 Y=-508.093 Z=100.943) NewBase: None NewBone: None ClientVel(X=-159.687 Y=-228.903 Z=83.663) ServerVel(X=-0.000 Y=-0.000 Z=135.625) SavedMoves 1
+[2026.02.02-09.47.08:801][755]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=123.938 is 25.656 LocDiff(X=-0.002 Y=-0.002 Z=-25.656) ClientLoc(X=-258.136 Y=-508.095 Z=75.287) ServerLoc(X=-258.135 Y=-508.093 Z=100.943) NewBase: None NewBone: None ClientVel(X=6.684 Y=-254.007 Z=67.326) ServerVel(X=-0.000 Y=-0.000 Z=135.625) SavedMoves 2
+[2026.02.02-09.47.13:724][ 50]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147482131 at Time=128.879 is 25.656 LocDiff(X=-0.002 Y=-0.002 Z=-25.656) ClientLoc(X=-258.136 Y=-508.095 Z=75.287) ServerLoc(X=-258.135 Y=-508.093 Z=100.943) NewBase: None NewBone: None ClientVel(X=183.227 Y=-210.549 Z=83.671) ServerVel(X=-0.000 Y=-0.000 Z=135.625) SavedMoves 1
+[2026.02.02-09.48.12:974][604]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.02-09.48.12:974][604]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.02.02-09.48.12:974][604]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.02.02-09.48.16:073][790]LogBlueprintUserMessages: [BP_AF_GameInstance_C_2147482542] None
+[2026.02.02-09.48.16:110][792]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2026.02.02-09.48.16:111][792]LogBlueprintUserMessages: [BP_AF_GameInstance_C_2147482542] disconnected
+[2026.02.02-09.48.16:123][793]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Ohh_Bee/Startup_Map"
+[2026.02.02-09.48.16:123][793]LogNet: Browse: /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.48.16:123][793]LogLoad: LoadMap: /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.48.16:123][793]LogWorld: BeginTearingDown for /Game/Kelalex/Maps/Demo
+[2026.02.02-09.48.16:124][793]LogNet: World NetDriver shutdown SteamSocketsNetDriver_2147482376 [GameNetDriver]
+[2026.02.02-09.48.16:124][793]LogNet: DestroyNamedNetDriver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147482376 
+[2026.02.02-09.48.16:124][793]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147482313, Driver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147482376, IsServer: NO, PC: BP_ThirdPersonPlayerController_C_2147482141, Owner: BP_ThirdPersonPlayerController_C_2147482141, UniqueId: STEAM:aug16th [0x11000011C8ACC59], Channels: 45, Time: 2026.02.02-09.48.16
+[2026.02.02-09.48.16:124][793]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147482313, Driver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147482376, IsServer: NO, PC: BP_ThirdPersonPlayerController_C_2147482141, Owner: BP_ThirdPersonPlayerController_C_2147482141, UniqueId: STEAM:aug16th [0x11000011C8ACC59]
+[2026.02.02-09.48.16:126][793]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2026.02.02-09.48.16:127][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.48.16:183][793]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.02-09.48.16:192][793]LogRenderer: Forcing update for all mesh draw commands: SkyLight change
+[2026.02.02-09.48.16:198][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.02.02-09.48.16:200][793]LogStreaming: Display: FlushAsyncLoading(73): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.02-09.48.16:203][793]LogAudio: Display: Audio Device (ID: 1) registered with world 'Startup_Map'.
+[2026.02.02-09.48.16:203][793]LogChaosDD: Creating Chaos Debug Draw Scene for world Startup_Map
+[2026.02.02-09.48.16:206][793]LogLoad: Game class is 'BP_GameMode_C'
+[2026.02.02-09.48.16:206][793]LogWorld: Bringing World /Game/Ohh_Bee/Startup_Map.Startup_Map up for play (max tick rate 60) at 2026.02.02-17.48.16
+[2026.02.02-09.48.16:206][793]LogWorld: Bringing up level for play took: 0.000398
+[2026.02.02-09.48.16:207][793]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.02.02-09.48.16:207][793]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.02.02-09.48.16:207][793]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.02.02-09.48.16:207][793]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.02.02-09.48.16:209][793]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.02.02-09.48.16:209][793]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.02.02-09.48.16:210][793]LogLoad: Took 0.086323 seconds to LoadMap(/Game/Ohh_Bee/Startup_Map)
+[2026.02.02-09.48.16:210][793]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.48.16:212][793]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P SDR steamid:76561199666643453 vport 7777] closed by app (1000) Connection Ended.
+[2026.02.02-09.48.19:529][993]LogBlueprintUserMessages: [WBP_Startup_C_2147481540] Searching
+[2026.02.02-09.48.19:914][ 16]LogOnlineSession: STEAM: Found 1 lobbies, finalizing the search
+[2026.02.02-09.48.19:914][ 16]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x18600006846D522], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2026.02.02-09.48.19:914][ 16]LogScript: Script Msg: Found a session. Ping is 20
+[2026.02.02-09.48.21:213][ 94]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P SDR steamid:76561199666643453 vport 7777] Discarding inactive session hkg#326 (103.28.54.183:27018).  ConnectionShutdown
+[2026.02.02-09.48.21:213][ 94]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#333313283 P2P SDR steamid:76561199666643453 vport 7777] Discarding inactive session sgp#6 (103.10.124.116:27020).  ConnectionShutdown
+[2026.02.02-09.48.23:447][228]LogOnlineSession: STEAM: Using P2P Data for Connection Serialization
+[2026.02.02-09.48.23:447][228]LogOnlineSession: OSS: Join session: traveling to steam.76561199666643453:7777
+[2026.02.02-09.48.23:462][229]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2026.02.02-09.48.23:462][229]LogGameState: Match State Changed from InProgress to LeavingMap
+[2026.02.02-09.48.23:462][229]LogGlobalStatus: UEngine::Browse Started Browse: "steam.76561199666643453/Game/Ohh_Bee/Startup_Map"
+[2026.02.02-09.48.23:462][229]LogNet: Browse: steam.76561199666643453/Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.48.23:462][229]LogNet: InitBase PendingNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.02-09.48.23:462][229]LogNet: SteamSocketsNetConnection_2147481468 setting maximum channels to: 32767
+[2026.02.02-09.48.23:462][229]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.02-09.48.23:463][229]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 2
+[2026.02.02-09.48.23:463][229]LogSteamSocketsAPI: Warning: SteamSockets API: Warning [#1972850695 P2P steamid:76561199666643453 vport 7777] Relay candidates enabled by P2P_Transport_ICE_Enable, but P2P_TURN_ServerList is empty
+[2026.02.02-09.48.23:463][229]LogSockets: SteamSockets: Now tracking socket 1972850695 for addr 76561199666643453:7777, has parent? 0
+[2026.02.02-09.48.23:463][229]LogNet: Game client on port 7777, rate 100000
+[2026.02.02-09.48.24:267][278]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P steamid:76561199666643453 vport 7777] finding route
+[2026.02.02-09.48.24:353][283]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P steamid:76561199666643453 vport 7777] Requesting session from sgp#6 (103.10.124.116:27020).  Ping = 20 = 10+1+9 (front+interior+remote).  Rank=1 Score=-1
+[2026.02.02-09.48.24:365][284]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P steamid:76561199666643453 vport 7777] Selecting sgp#6 (103.10.124.116:27020) as primary.  (Ping = 20 = 10+1+9 (front+interior+remote).  Rank=1 Score=21)
+[2026.02.02-09.48.24:382][285]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P SDR steamid:76561199666643453 vport 7777] Requesting session from hkg#326 (103.28.54.183:27018).  Ping = 79 = 39+31+9 (front+interior+remote).  Rank=2 Score=-1
+[2026.02.02-09.48.24:419][287]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P SDR steamid:76561199666643453 vport 7777] connected
+[2026.02.02-09.48.24:422][287]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P SDR steamid:76561199666643453 vport 7777] Selecting hkg#326 (103.28.54.183:27018) as backup #1 (Ping = 79 = 39+31+9 (front+interior+remote).  Rank=2 Score=83)
+[2026.02.02-09.48.24:512][292]LogHandshake: Cached server SessionID: 0
+[2026.02.02-09.48.24:512][292]LogHandshake: SendChallengeResponse. Timestamp: 952.095505, Cookie: 063082118068003110097015020083247178184155033016119041079130
+[2026.02.02-09.48.24:546][294]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147481468, Driver: Name:PendingNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147481531, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.02.02-09.48.24:612][298]LogNet: Welcomed by server (Level: /Game/Kelalex/Maps/Demo, Game: /Game/Aug/BP_OniGamemode.BP_OniGamemode_C)
+[2026.02.02-09.48.24:612][298]LogLoad: LoadMap: steam.76561199666643453/Game/Kelalex/Maps/Demo?game=/Game/Aug/BP_OniGamemode.BP_OniGamemode_C
+[2026.02.02-09.48.24:613][298]LogWorld: BeginTearingDown for /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.48.24:614][298]LogOnlineSession: Warning: STEAM: Player aug16th [0x11000011C8ACC59] is not part of session (GameSession)
+[2026.02.02-09.48.24:614][298]LogOnlineSession: Warning: STEAM: Player aug16th [0x11000011C8ACC59] is not part of session (GameSession)
+[2026.02.02-09.48.24:614][298]LogWorld: UWorld::CleanupWorld for Startup_Map, bSessionEnded=true, bCleanupResources=true
+[2026.02.02-09.48.24:614][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.48.24:640][298]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.02-09.48.24:641][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.02.02-09.48.24:642][298]LogStreaming: Display: FlushAsyncLoading(75): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.02-09.48.24:779][298]LogAudio: Display: Audio Device (ID: 1) registered with world 'Demo'.
+[2026.02.02-09.48.24:779][298]LogChaosDD: Creating Chaos Debug Draw Scene for world Demo
+[2026.02.02-09.48.24:791][298]LogWorld: Bringing World /Game/Kelalex/Maps/Demo.Demo up for play (max tick rate 60) at 2026.02.02-17.48.24
+[2026.02.02-09.48.24:792][298]LogWorld: Bringing up level for play took: 0.009565
+[2026.02.02-09.48.24:793][298]LogLoad: Took 0.180572 seconds to LoadMap(/Game/Kelalex/Maps/Demo)
+[2026.02.02-09.48.24:793][298]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Kelalex/Maps/Demo
+[2026.02.02-09.48.24:794][298]LogGlobalStatus: UPendingNetGame::TravelCompleted Pending net game travel completed
+[2026.02.02-09.48.24:845][299]LogRenderer: Forcing update for all mesh draw commands: SkyLight change
+[2026.02.02-09.48.24:853][300]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_1
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.48.24:853][300]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.48.24:853][300]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_5
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.48.24:853][300]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.48.24:853][300]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_6
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.48.24:853][300]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.48.24:854][300]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_4
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.48.24:854][300]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.48.24:893][302]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.02.02-09.48.24:893][302]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.02.02-09.48.45:556][542]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=20.634 is 1.778 LocDiff(X=-1.495 Y=0.963 Z=-0.000) ClientLoc(X=-629.043 Y=97.605 Z=17.650) ServerLoc(X=-627.549 Y=96.642 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-258.923 Y=304.892 Z=0.000) ServerVel(X=-219.941 Y=276.295 Z=0.000) SavedMoves 2
+[2026.02.02-09.49.16:245][383]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=51.337 is 22.423 LocDiff(X=16.509 Y=11.108 Z=-10.338) ClientLoc(X=-267.269 Y=-491.996 Z=46.855) ServerLoc(X=-283.777 Y=-503.104 Z=57.193) NewBase: None NewBone: None ClientVel(X=-100.598 Y=210.540 Z=-89.833) ServerVel(X=-173.588 Y=33.776 Z=-64.375) SavedMoves 1
+[2026.02.02-09.49.28:396][112]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=63.472 is 2.919 LocDiff(X=-2.908 Y=-0.249 Z=0.000) ClientLoc(X=-1498.817 Y=476.160 Z=17.650) ServerLoc(X=-1495.909 Y=476.410 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-88.470 Y=0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 2
+[2026.02.02-09.49.28:479][117]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=63.572 is 8.271 LocDiff(X=-5.108 Y=6.505 Z=-0.000) ClientLoc(X=-1501.017 Y=482.915 Z=17.650) ServerLoc(X=-1495.909 Y=476.410 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-72.011 Y=131.797 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 1
+[2026.02.02-09.49.28:596][124]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=63.672 is 3.705 LocDiff(X=-2.428 Y=1.805 Z=2.137) ClientLoc(X=-1498.339 Y=478.217 Z=19.787) ServerLoc(X=-1495.911 Y=476.412 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-86.840 Y=-0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 2
+[2026.02.02-09.49.28:713][131]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=63.789 is 5.921 LocDiff(X=-4.188 Y=3.067 Z=2.847) ClientLoc(X=-1500.107 Y=479.485 Z=20.497) ServerLoc(X=-1495.919 Y=476.418 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-16.188 Y=38.166 Z=0.000) ServerVel(X=-0.449 Y=0.372 Z=0.000) SavedMoves 2
+[2026.02.02-09.49.28:796][136]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=63.889 is 7.025 LocDiff(X=-3.274 Y=5.385 Z=3.104) ClientLoc(X=-1499.193 Y=481.803 Z=20.754) ServerLoc(X=-1495.919 Y=476.418 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-24.214 Y=144.163 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 1
+[2026.02.02-09.49.28:913][143]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=63.989 is 7.245 LocDiff(X=-6.328 Y=3.173 Z=1.543) ClientLoc(X=-1502.247 Y=479.591 Z=19.193) ServerLoc(X=-1495.919 Y=476.418 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-43.845 Y=2.422 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 2
+[2026.02.02-09.49.29:013][149]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=64.106 is 7.383 LocDiff(X=-6.240 Y=3.517 Z=1.790) ClientLoc(X=-1502.158 Y=479.935 Z=19.440) ServerLoc(X=-1495.919 Y=476.418 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-28.013 Y=48.675 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 1
+[2026.02.02-09.49.29:146][157]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=64.222 is 2.164 LocDiff(X=-1.207 Y=1.796 Z=0.000) ClientLoc(X=-1497.126 Y=478.213 Z=17.650) ServerLoc(X=-1495.919 Y=476.418 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-53.420 Y=14.439 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 2
+[2026.02.02-09.49.29:263][164]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=64.339 is 8.456 LocDiff(X=-3.703 Y=5.696 Z=5.035) ClientLoc(X=-1499.319 Y=482.165 Z=22.685) ServerLoc(X=-1495.616 Y=476.469 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 2
+[2026.02.02-09.49.38:563][722]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=73.641 is 5.089 LocDiff(X=-4.864 Y=0.150 Z=-1.490) ClientLoc(X=-2519.870 Y=1111.574 Z=17.691) ServerLoc(X=-2515.007 Y=1111.424 Z=19.181) NewBase: None NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=274.694 Y=-12.858 Z=83.663) SavedMoves 2
+[2026.02.02-09.51.00:597][643]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=155.695 is 1.909 LocDiff(X=-1.909 Y=-0.014 Z=0.000) ClientLoc(X=-2475.183 Y=1130.363 Z=17.650) ServerLoc(X=-2473.273 Y=1130.377 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=100.281 Y=229.557 Z=0.000) ServerVel(X=94.744 Y=220.529 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.00:713][650]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=155.812 is 4.541 LocDiff(X=-4.436 Y=0.971 Z=0.000) ClientLoc(X=-2454.472 Y=1162.040 Z=17.650) ServerLoc(X=-2450.036 Y=1161.069 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=258.845 Y=304.943 Z=0.000) ServerVel(X=267.642 Y=297.251 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.01:812][716]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=156.912 is 1.893 LocDiff(X=1.020 Y=1.595 Z=0.000) ClientLoc(X=-2415.987 Y=1144.764 Z=17.650) ServerLoc(X=-2417.007 Y=1143.170 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-17.897 Y=-60.359 Z=0.000) ServerVel(X=-24.197 Y=-68.823 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.01:929][723]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=157.012 is 5.611 LocDiff(X=1.565 Y=5.389 Z=0.000) ClientLoc(X=-2419.255 Y=1138.479 Z=17.650) ServerLoc(X=-2420.819 Y=1133.090 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-50.598 Y=-147.369 Z=0.000) ServerVel(X=-48.728 Y=-121.647 Z=0.000) SavedMoves 2
+[2026.02.02-09.51.02:030][729]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=157.128 is 7.636 LocDiff(X=1.555 Y=7.476 Z=0.000) ClientLoc(X=-2427.235 Y=1124.948 Z=17.650) ServerLoc(X=-2428.790 Y=1117.472 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-67.873 Y=-143.968 Z=0.000) ServerVel(X=-87.859 Y=-146.888 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.02:146][736]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=157.245 is 11.149 LocDiff(X=-0.482 Y=11.139 Z=0.000) ClientLoc(X=-2436.586 Y=1113.412 Z=17.650) ServerLoc(X=-2436.104 Y=1102.274 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=-22.557 Y=-47.844 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.04:896][901]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=159.994 is 1.963 LocDiff(X=-0.315 Y=1.938 Z=0.000) ClientLoc(X=-2407.247 Y=1025.248 Z=17.650) ServerLoc(X=-2406.932 Y=1023.310 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-33.167 Y=-79.452 Z=0.000) ServerVel(X=-31.742 Y=-83.777 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.05:013][908]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=160.111 is 6.163 LocDiff(X=-2.672 Y=5.554 Z=0.067) ClientLoc(X=-2412.684 Y=1011.004 Z=17.717) ServerLoc(X=-2410.012 Y=1005.450 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-13.903 Y=-208.648 Z=0.000) ServerVel(X=-16.228 Y=-219.022 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.05:130][915]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=160.227 is 2.939 LocDiff(X=-2.795 Y=0.908 Z=0.000) ClientLoc(X=-2411.870 Y=969.257 Z=17.650) ServerLoc(X=-2409.075 Y=968.349 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=12.490 Y=-399.805 Z=0.000) ServerVel(X=22.975 Y=-392.283 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.06:230][981]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=161.327 is 2.729 LocDiff(X=-0.047 Y=2.726 Z=0.126) ClientLoc(X=-2395.890 Y=834.888 Z=17.776) ServerLoc(X=-2395.843 Y=832.162 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=15.019 Y=-57.633 Z=0.000) ServerVel(X=15.139 Y=-93.847 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.06:347][988]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=161.444 is 4.268 LocDiff(X=-0.268 Y=4.259 Z=0.000) ClientLoc(X=-2395.143 Y=832.134 Z=17.650) ServerLoc(X=-2394.875 Y=827.875 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.07:379][ 50]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=162.460 is 1.756 LocDiff(X=-1.737 Y=0.165 Z=0.197) ClientLoc(X=-2299.708 Y=868.770 Z=17.847) ServerLoc(X=-2297.971 Y=868.605 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=113.149 Y=205.659 Z=0.000) ServerVel(X=82.003 Y=175.850 Z=0.000) SavedMoves 2
+[2026.02.02-09.51.09:130][155]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=164.227 is 2.169 LocDiff(X=2.130 Y=0.410 Z=0.000) ClientLoc(X=-2296.158 Y=985.603 Z=17.650) ServerLoc(X=-2298.289 Y=985.193 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-167.640 Y=58.136 Z=0.000) ServerVel(X=-166.326 Y=42.763 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.09:247][162]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=164.344 is 2.461 LocDiff(X=1.161 Y=2.170 Z=0.000) ClientLoc(X=-2322.470 Y=989.165 Z=17.650) ServerLoc(X=-2323.631 Y=986.995 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-124.945 Y=13.699 Z=0.000) ServerVel(X=-167.204 Y=6.364 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.10:031][209]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=165.127 is 1.906 LocDiff(X=-1.011 Y=1.616 Z=0.000) ClientLoc(X=-2332.658 Y=960.713 Z=17.650) ServerLoc(X=-2331.647 Y=959.097 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-71.922 Y=-145.369 Z=0.000) ServerVel(X=-63.839 Y=-151.276 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.10:131][215]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=165.227 is 6.534 LocDiff(X=-4.426 Y=4.806 Z=0.000) ClientLoc(X=-2338.877 Y=939.783 Z=17.650) ServerLoc(X=-2334.451 Y=934.977 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-28.764 Y=-285.008 Z=0.000) ServerVel(X=-7.767 Y=-303.888 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.14:130][455]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=169.226 is 1.752 LocDiff(X=-1.523 Y=-0.860 Z=0.091) ClientLoc(X=-2440.270 Y=731.008 Z=17.741) ServerLoc(X=-2438.746 Y=731.868 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=8.207 Y=-7.746 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.15:214][520]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=170.310 is 1.800 LocDiff(X=-1.020 Y=-1.483 Z=0.000) ClientLoc(X=-2442.523 Y=759.289 Z=17.650) ServerLoc(X=-2441.504 Y=760.773 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-39.664 Y=51.893 Z=0.000) ServerVel(X=-49.588 Y=92.389 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.16:830][617]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=171.909 is 1.980 LocDiff(X=-0.467 Y=-1.924 Z=0.000) ClientLoc(X=-2409.321 Y=765.575 Z=17.650) ServerLoc(X=-2408.854 Y=767.499 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-64.077 Y=117.984 Z=0.000) ServerVel(X=-61.037 Y=110.177 Z=0.000) SavedMoves 2
+[2026.02.02-09.51.16:931][623]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=172.026 is 3.024 LocDiff(X=-1.186 Y=-2.782 Z=0.000) ClientLoc(X=-2414.614 Y=772.337 Z=17.650) ServerLoc(X=-2413.428 Y=775.119 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=0.000 Y=0.000 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.18:215][700]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=173.309 is 1.805 LocDiff(X=0.138 Y=-1.800 Z=0.000) ClientLoc(X=-2370.496 Y=791.979 Z=17.650) ServerLoc(X=-2370.633 Y=793.779 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-53.775 Y=28.945 Z=0.000) ServerVel(X=-88.753 Y=68.231 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.19:864][799]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=174.942 is 2.001 LocDiff(X=-1.998 Y=0.108 Z=0.000) ClientLoc(X=-2351.990 Y=835.048 Z=17.650) ServerLoc(X=-2349.992 Y=834.940 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=0.000 Y=0.000 Z=0.000) ServerVel(X=77.456 Y=25.991 Z=0.000) SavedMoves 2
+[2026.02.02-09.51.21:831][917]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=176.925 is 1.754 LocDiff(X=-0.399 Y=-1.708 Z=0.000) ClientLoc(X=-2295.236 Y=801.720 Z=17.650) ServerLoc(X=-2294.837 Y=803.428 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-45.057 Y=70.316 Z=0.000) ServerVel(X=-36.575 Y=83.816 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.21:965][925]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=177.042 is 5.267 LocDiff(X=-1.074 Y=-5.156 Z=0.000) ClientLoc(X=-2301.511 Y=813.354 Z=17.650) ServerLoc(X=-2300.437 Y=818.511 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-5.204 Y=12.892 Z=0.000) ServerVel(X=-35.481 Y=104.018 Z=0.000) SavedMoves 2
+[2026.02.02-09.51.34:566][681]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=189.656 is 1.737 LocDiff(X=1.474 Y=-0.919 Z=0.000) ClientLoc(X=-1867.210 Y=676.464 Z=17.650) ServerLoc(X=-1868.684 Y=677.384 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=142.803 Y=-62.001 Z=0.000) ServerVel(X=166.372 Y=-71.703 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.38:448][914]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=193.522 is 1.949 LocDiff(X=0.988 Y=1.680 Z=0.013) ClientLoc(X=-1875.325 Y=698.613 Z=17.663) ServerLoc(X=-1876.313 Y=696.932 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=33.295 Y=91.904 Z=0.000) ServerVel(X=59.648 Y=23.291 Z=0.000) SavedMoves 2
+[2026.02.02-09.51.41:849][118]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=196.938 is 1.808 LocDiff(X=-0.392 Y=1.765 Z=-0.000) ClientLoc(X=-1867.093 Y=714.856 Z=17.650) ServerLoc(X=-1866.700 Y=713.092 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-53.356 Y=23.468 Z=0.000) ServerVel(X=-0.010 Y=19.667 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.42:649][166]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=197.737 is 1.785 LocDiff(X=-0.701 Y=1.641 Z=0.000) ClientLoc(X=-1868.313 Y=738.805 Z=17.650) ServerLoc(X=-1867.612 Y=737.164 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-10.725 Y=21.464 Z=0.000) ServerVel(X=-6.536 Y=19.033 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.42:816][176]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=197.904 is 1.873 LocDiff(X=0.152 Y=-1.867 Z=0.000) ClientLoc(X=-1866.605 Y=731.625 Z=17.650) ServerLoc(X=-1866.757 Y=733.492 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=-0.117 Y=-90.726 Z=0.000) ServerVel(X=7.711 Y=-54.204 Z=0.000) SavedMoves 1
+[2026.02.02-09.51.47:073][431]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=202.160 is 1.743 LocDiff(X=1.477 Y=-0.924 Z=-0.000) ClientLoc(X=-1873.260 Y=745.391 Z=17.650) ServerLoc(X=-1874.737 Y=746.315 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=126.053 Y=-120.760 Z=0.000) ServerVel(X=46.365 Y=-175.166 Z=0.000) SavedMoves 1
+[2026.02.02-09.52.22:026][528]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=237.105 is 1.921 LocDiff(X=-0.288 Y=-1.899 Z=0.000) ClientLoc(X=-228.461 Y=-494.423 Z=17.650) ServerLoc(X=-228.173 Y=-492.524 Z=17.650) NewBase: Demo:PersistentLevel.floor_0.StaticMeshComponent0 NewBone: None ClientVel(X=49.080 Y=-67.635 Z=0.000) ServerVel(X=80.264 Y=-78.736 Z=0.000) SavedMoves 1
+[2026.02.02-09.52.26:460][794]LogNetPlayerMovement: Warning: *** Client: Error for BP_Oni_C_2147481279 at Time=1.538 is 49.572 LocDiff(X=-0.002 Y=-0.002 Z=-49.572) ClientLoc(X=-258.136 Y=-508.095 Z=51.371) ServerLoc(X=-258.135 Y=-508.093 Z=100.943) NewBase: None NewBone: None ClientVel(X=272.693 Y=59.483 Z=83.667) ServerVel(X=-0.000 Y=-0.000 Z=135.625) SavedMoves 1
+[2026.02.02-09.52.52:076][326]LogSteamSocketsAPI: Verbose: SteamSockets API: Log Certificate expires in 47h26m at 1770196733 (current time 1770025972), will renew in 45h26m
+[2026.02.02-09.53.02:925][977]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.02-09.53.02:925][977]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.02.02-09.53.02:925][977]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.02.02-09.53.05:025][103]LogBlueprintUserMessages: [BP_AF_GameInstance_C_2147482542] None
+[2026.02.02-09.53.05:061][105]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2026.02.02-09.53.05:061][105]LogBlueprintUserMessages: [BP_AF_GameInstance_C_2147482542] disconnected
+[2026.02.02-09.53.05:075][106]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Ohh_Bee/Startup_Map"
+[2026.02.02-09.53.05:075][106]LogNet: Browse: /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.53.05:075][106]LogLoad: LoadMap: /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.53.05:075][106]LogWorld: BeginTearingDown for /Game/Kelalex/Maps/Demo
+[2026.02.02-09.53.05:075][106]LogNet: World NetDriver shutdown SteamSocketsNetDriver_2147481531 [GameNetDriver]
+[2026.02.02-09.53.05:075][106]LogNet: DestroyNamedNetDriver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147481531 
+[2026.02.02-09.53.05:075][106]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147481468, Driver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147481531, IsServer: NO, PC: BP_ThirdPersonPlayerController_C_2147481297, Owner: BP_ThirdPersonPlayerController_C_2147481297, UniqueId: STEAM:aug16th [0x11000011C8ACC59], Channels: 45, Time: 2026.02.02-09.53.05
+[2026.02.02-09.53.05:075][106]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147481468, Driver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147481531, IsServer: NO, PC: BP_ThirdPersonPlayerController_C_2147481297, Owner: BP_ThirdPersonPlayerController_C_2147481297, UniqueId: STEAM:aug16th [0x11000011C8ACC59]
+[2026.02.02-09.53.05:076][106]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2026.02.02-09.53.05:078][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.53.05:109][106]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.02-09.53.05:122][106]LogRenderer: Forcing update for all mesh draw commands: SkyLight change
+[2026.02.02-09.53.05:131][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.02.02-09.53.05:133][106]LogStreaming: Display: FlushAsyncLoading(77): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.02-09.53.05:135][106]LogAudio: Display: Audio Device (ID: 1) registered with world 'Startup_Map'.
+[2026.02.02-09.53.05:135][106]LogChaosDD: Creating Chaos Debug Draw Scene for world Startup_Map
+[2026.02.02-09.53.05:137][106]LogLoad: Game class is 'BP_GameMode_C'
+[2026.02.02-09.53.05:137][106]LogWorld: Bringing World /Game/Ohh_Bee/Startup_Map.Startup_Map up for play (max tick rate 60) at 2026.02.02-17.53.05
+[2026.02.02-09.53.05:137][106]LogWorld: Bringing up level for play took: 0.000348
+[2026.02.02-09.53.05:138][106]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.02.02-09.53.05:138][106]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.02.02-09.53.05:138][106]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.02.02-09.53.05:138][106]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.02.02-09.53.05:140][106]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.02.02-09.53.05:140][106]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.02.02-09.53.05:140][106]LogLoad: Took 0.065625 seconds to LoadMap(/Game/Ohh_Bee/Startup_Map)
+[2026.02.02-09.53.05:140][106]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.53.05:142][106]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P SDR steamid:76561199666643453 vport 7777] closed by app (1000) Connection Ended.
+[2026.02.02-09.53.06:926][214]LogBlueprintUserMessages: [WBP_Startup_C_2147480934] Searching
+[2026.02.02-09.53.07:310][237]LogOnlineSession: STEAM: Found 1 lobbies, finalizing the search
+[2026.02.02-09.53.07:310][237]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x18600006846D522], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2026.02.02-09.53.07:311][237]LogScript: Script Msg: Found a session. Ping is 20
+[2026.02.02-09.53.09:077][343]LogOnlineSession: STEAM: Using P2P Data for Connection Serialization
+[2026.02.02-09.53.09:077][343]LogOnlineSession: OSS: Join session: traveling to steam.76561199666643453:7777
+[2026.02.02-09.53.09:092][344]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2026.02.02-09.53.09:092][344]LogGameState: Match State Changed from InProgress to LeavingMap
+[2026.02.02-09.53.09:092][344]LogGlobalStatus: UEngine::Browse Started Browse: "steam.76561199666643453/Game/Ohh_Bee/Startup_Map"
+[2026.02.02-09.53.09:092][344]LogNet: Browse: steam.76561199666643453/Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.53.09:092][344]LogNet: InitBase PendingNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.02-09.53.09:092][344]LogNet: SteamSocketsNetConnection_2147480862 setting maximum channels to: 32767
+[2026.02.02-09.53.09:093][344]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.02-09.53.09:093][344]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 3
+[2026.02.02-09.53.09:093][344]LogSteamSocketsAPI: Warning: SteamSockets API: Warning [#4034277082 P2P steamid:76561199666643453 vport 7777] Relay candidates enabled by P2P_Transport_ICE_Enable, but P2P_TURN_ServerList is empty
+[2026.02.02-09.53.09:093][344]LogSockets: SteamSockets: Now tracking socket 4034277082 for addr 76561199666643453:7777, has parent? 0
+[2026.02.02-09.53.09:093][344]LogNet: Game client on port 7777, rate 100000
+[2026.02.02-09.53.09:848][390]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P steamid:76561199666643453 vport 7777] finding route
+[2026.02.02-09.53.09:923][394]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P steamid:76561199666643453 vport 7777] Requesting session from sgp#6 (103.10.124.116:27020).  Ping = 20 = 10+1+9 (front+interior+remote).  Rank=1 Score=-1
+[2026.02.02-09.53.09:953][396]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P steamid:76561199666643453 vport 7777] Selecting sgp#6 (103.10.124.116:27020) as primary.  (Ping = 21 = 10+1+10 (front+interior+remote).  Rank=1 Score=23)
+[2026.02.02-09.53.09:953][396]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P steamid:76561199666643453 vport 7777] Requesting session from hkg#326 (103.28.54.183:27018).  Ping = 80 = 39+31+10 (front+interior+remote).  Rank=2 Score=-1
+[2026.02.02-09.53.09:976][398]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P SDR steamid:76561199666643453 vport 7777] connected
+[2026.02.02-09.53.09:994][399]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P SDR steamid:76561199666643453 vport 7777] Selecting hkg#326 (103.28.54.183:27018) as backup #1 (Ping = 80 = 39+31+10 (front+interior+remote).  Rank=2 Score=84)
+[2026.02.02-09.53.10:142][407]LogHandshake: Cached server SessionID: 0
+[2026.02.02-09.53.10:143][407]LogHandshake: SendChallengeResponse. Timestamp: 1237.728106, Cookie: 251228146134228187146249125099034129191043083101238053128166
+[2026.02.02-09.53.10:143][407]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P SDR steamid:76561199666643453 vport 7777] Discarding inactive session hkg#326 (103.28.54.183:27018).  ConnectionShutdown
+[2026.02.02-09.53.10:143][407]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#1972850695 P2P SDR steamid:76561199666643453 vport 7777] Discarding inactive session sgp#6 (103.10.124.116:27020).  ConnectionShutdown
+[2026.02.02-09.53.10:175][409]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147480862, Driver: Name:PendingNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147480925, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.02.02-09.53.10:242][413]LogNet: Welcomed by server (Level: /Game/Kelalex/Maps/Demo, Game: /Game/Aug/BP_OniGamemode.BP_OniGamemode_C)
+[2026.02.02-09.53.10:242][413]LogLoad: LoadMap: steam.76561199666643453/Game/Kelalex/Maps/Demo?game=/Game/Aug/BP_OniGamemode.BP_OniGamemode_C
+[2026.02.02-09.53.10:242][413]LogWorld: BeginTearingDown for /Game/Ohh_Bee/Startup_Map
+[2026.02.02-09.53.10:243][413]LogOnlineSession: Warning: STEAM: Player aug16th [0x11000011C8ACC59] is not part of session (GameSession)
+[2026.02.02-09.53.10:243][413]LogOnlineSession: Warning: STEAM: Player aug16th [0x11000011C8ACC59] is not part of session (GameSession)
+[2026.02.02-09.53.10:243][413]LogWorld: UWorld::CleanupWorld for Startup_Map, bSessionEnded=true, bCleanupResources=true
+[2026.02.02-09.53.10:243][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.53.10:268][413]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.02-09.53.10:269][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.02.02-09.53.10:271][413]LogStreaming: Display: FlushAsyncLoading(79): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.02-09.53.10:381][413]LogAudio: Display: Audio Device (ID: 1) registered with world 'Demo'.
+[2026.02.02-09.53.10:381][413]LogChaosDD: Creating Chaos Debug Draw Scene for world Demo
+[2026.02.02-09.53.10:393][413]LogWorld: Bringing World /Game/Kelalex/Maps/Demo.Demo up for play (max tick rate 60) at 2026.02.02-17.53.10
+[2026.02.02-09.53.10:394][413]LogWorld: Bringing up level for play took: 0.009916
+[2026.02.02-09.53.10:394][413]LogLoad: Took 0.151275 seconds to LoadMap(/Game/Kelalex/Maps/Demo)
+[2026.02.02-09.53.10:394][413]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Kelalex/Maps/Demo
+[2026.02.02-09.53.10:394][413]LogGlobalStatus: UPendingNetGame::TravelCompleted Pending net game travel completed
+[2026.02.02-09.53.10:497][414]LogRenderer: Forcing update for all mesh draw commands: SkyLight change
+[2026.02.02-09.53.10:507][415]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_1
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.53.10:507][415]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.53.10:507][415]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_5
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.53.10:507][415]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.53.10:507][415]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_6
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.53.10:507][415]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.53.10:507][415]LogScript: Warning: Accessed None trying to read (real) property As WBP Testtext in BP_NPC_C
+	BP_NPC_C /Game/Kelalex/Maps/Demo.Demo:PersistentLevel.BP_NPC_C_4
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text:000A
+[2026.02.02-09.53.10:507][415]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPerson/Blueprints/BP_NPC.BP_NPC_C:OnRep_Text
+
+[2026.02.02-09.53.10:511][415]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.02.02-09.53.10:511][415]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.02.02-09.54.58:656][902]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.02-09.54.58:656][902]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.02.02-09.54.58:657][902]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.02.02-09.54.59:906][977]Closing by request
+[2026.02.02-09.54.59:906][977]LogWindows: FPlatformMisc::RequestExit(0, UGameEngine::HandleExitCommand)
+[2026.02.02-09.54.59:906][977]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, UGameEngine::HandleExitCommand)
+[2026.02.02-09.54.59:906][977]LogCore: Engine exit requested (reason: Win RequestExit)
+[2026.02.02-09.54.59:909][978]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.02.02-09.54.59:913][978]LogInit: Display: PreExit Game.
+[2026.02.02-09.54.59:914][978]LogWorld: BeginTearingDown for /Game/Kelalex/Maps/Demo
+[2026.02.02-09.54.59:914][978]LogNet: World NetDriver shutdown SteamSocketsNetDriver_2147480925 [GameNetDriver]
+[2026.02.02-09.54.59:914][978]LogNet: DestroyNamedNetDriver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147480925 
+[2026.02.02-09.54.59:914][978]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147480862, Driver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147480925, IsServer: NO, PC: BP_ThirdPersonPlayerController_C_2147480691, Owner: BP_ThirdPersonPlayerController_C_2147480691, UniqueId: STEAM:aug16th [0x11000011C8ACC59], Channels: 45, Time: 2026.02.02-09.54.59
+[2026.02.02-09.54.59:914][978]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561199666643453:7777, Name: SteamSocketsNetConnection_2147480862, Driver: Name:GameNetDriver Def:GameNetDriver SteamSocketsNetDriver_2147480925, IsServer: NO, PC: BP_ThirdPersonPlayerController_C_2147480691, Owner: BP_ThirdPersonPlayerController_C_2147480691, UniqueId: STEAM:aug16th [0x11000011C8ACC59]
+[2026.02.02-09.54.59:915][978]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2026.02.02-09.54.59:915][978]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2026.02.02-09.54.59:916][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.02-09.54.59:916][978]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.02.02-09.55.00:856][978]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.02.02-09.55.00:856][978]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.02.02-09.55.00:856][978]LogAudio: Display: Audio Device unregistered from world 'Demo'.
+[2026.02.02-09.55.00:856][978]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.02.02-09.55.00:897][978]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.02.02-09.55.00:898][978]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.02.02-09.55.00:904][978]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.02.02-09.55.00:904][978]LogAudio: Display: Audio Device Manager Shutdown
+[2026.02.02-09.55.00:904][978]LogSlate: Request Window 'Paparazi (64-bit Development PCD3D_SM5) ' being destroyed
+[2026.02.02-09.55.00:905][978]LogSlate: Window 'Paparazi (64-bit Development PCD3D_SM5) ' being destroyed
+[2026.02.02-09.55.00:923][978]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.02.02-09.55.00:924][978]LogExit: Preparing to exit.
+[2026.02.02-09.55.00:924][978]LogMoviePlayer: Shutting down movie player
+[2026.02.02-09.55.00:933][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.02-09.55.00:949][978]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.02.02-09.55.00:952][978]LogExit: Game engine shut down
+[2026.02.02-09.55.00:957][978]LogRenderer: Forcing update for all mesh draw commands: SkyLight change
+[2026.02.02-09.55.01:023][978]LogExit: Object subsystem successfully closed.
+[2026.02.02-09.55.01:028][978]LogShaderLibrary: Display: Closing logical shader library 'Global' with 1 components
+[2026.02.02-09.55.01:029][978]LogShaderLibrary: Display: Closing logical shader library 'Paparazi' with 1 components
+[2026.02.02-09.55.01:030][978]LogSockets: SteamSockets: Cleaning up
+[2026.02.02-09.55.01:136][978]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.02.02-09.55.01:136][978]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2026.02.02-09.55.01:137][978]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2026.02.02-09.55.01:137][978]LogSteamShared: Unloading the Steam API...
+[2026.02.02-09.55.01:137][978]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P SDR steamid:76561199666643453 vport 7777] Cleaning up open connection on system shutdown
+[2026.02.02-09.55.01:137][978]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P SDR steamid:76561199666643453 vport 7777] closed by app (2999) SteamNetworkingSockets shutdown
+[2026.02.02-09.55.01:137][978]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P SDR steamid:76561199666643453 vport 7777] Discarding inactive session hkg#326 (103.28.54.183:27018).  ConnectionShutdown
+[2026.02.02-09.55.01:137][978]LogSteamSocketsAPI: Verbose: SteamSockets API: Log [#4034277082 P2P SDR steamid:76561199666643453 vport 7777] Discarding inactive session sgp#6 (103.10.124.116:27020).  ConnectionShutdown
+[2026.02.02-09.55.01:138][978]LogSteamSocketsAPI: Verbose: SteamSockets API: Log Shutting down low level socket/threading support.
+[2026.02.02-09.55.01:157][978]Log file closed, 02/02/26 17:55:01

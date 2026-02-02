@@ -1,2 +1,3 @@
-2026/02/02-17:27:30.867 cb14 Creating DB C:\Users\User\Documents\DevTests\Paparazi Dev Test\Windows\Paparazi\Saved\webcache_6613\Default\Sync Data\LevelDB since it was missing.
-2026/02/02-17:27:30.894 cb14 Reusing MANIFEST C:\Users\User\Documents\DevTests\Paparazi Dev Test\Windows\Paparazi\Saved\webcache_6613\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/02/02-17:56:18.047 9fcc Reusing MANIFEST C:\Users\User\Documents\DevTests\Paparazi Dev Test\Windows\Paparazi\Saved\webcache_6613\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/02/02-17:56:18.049 9fcc Recovering log #3
+2026/02/02-17:56:18.050 9fcc Reusing old log C:\Users\User\Documents\DevTests\Paparazi Dev Test\Windows\Paparazi\Saved\webcache_6613\Default\Sync Data\LevelDB/000003.log 

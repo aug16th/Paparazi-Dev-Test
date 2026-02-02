@@ -1,0 +1,4 @@
+[39732:49324:0202/173251.987:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[39732:53028:0202/173255.120:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[39732:49324:0202/173552.466:ERROR:extension_registrar.cc(549)] Failed to unregister service worker for extension ngpampappnmepgilojfohadhhmbhlaek
+[39732:49324:0202/175501.124:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
