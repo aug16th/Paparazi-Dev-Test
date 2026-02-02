@@ -1,4 +1,4 @@
-[51476:50660:0202/175617.968:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[51476:50660:0202/175618.607:WARNING:extension_service.cc(2034)] Found external version of extension ngpampappnmepgilojfohadhhmbhlaekthat is older than current version. Current version is: 6.42.59. New version is: 6.42.50. Keeping current version.
-[51476:42488:0202/175621.134:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[51476:50660:0202/175722.444:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[52056:48856:0202/194345.794:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[52056:48856:0202/194346.462:WARNING:extension_service.cc(2034)] Found external version of extension ngpampappnmepgilojfohadhhmbhlaekthat is older than current version. Current version is: 6.42.59. New version is: 6.42.50. Keeping current version.
+[52056:49372:0202/194348.993:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[52056:48856:0202/194400.167:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
