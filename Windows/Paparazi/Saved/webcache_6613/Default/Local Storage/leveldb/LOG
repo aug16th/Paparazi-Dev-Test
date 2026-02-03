@@ -1,3 +1,3 @@
-2026/02/02-19:43:46.048 c414 Reusing MANIFEST C:\Users\User\Documents\DevTests\Paparazi Dev Test\Windows\Paparazi\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/02/02-19:43:46.055 c414 Recovering log #3
-2026/02/02-19:43:46.058 c414 Reusing old log C:\Users\User\Documents\DevTests\Paparazi Dev Test\Windows\Paparazi\Saved\webcache_6613\Default\Local Storage\leveldb/000003.log 
+2026/02/02-19:55:43.729 d100 Reusing MANIFEST C:\Users\User\Documents\DevTests\Paparazi Dev Test\Windows\Paparazi\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/02/02-19:55:43.734 d100 Recovering log #3
+2026/02/02-19:55:43.736 d100 Reusing old log C:\Users\User\Documents\DevTests\Paparazi Dev Test\Windows\Paparazi\Saved\webcache_6613\Default\Local Storage\leveldb/000003.log 
