@@ -89,7 +89,7 @@ Engine/Binaries/Win64/EpicWebHelper.exe	2026-01-22T06:31:00.264Z
 Engine/Content/Renderer/TessellationTable.bin	2025-12-04T09:21:55.533Z
 Engine/Content/Slate/Cursor/invisible.cur	2025-12-04T09:21:55.550Z
 Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll	2026-01-22T06:32:19.490Z
-Engine/Config/StagedBuild_Paparazi.ini	2026-02-05T08:55:34.413Z
+Engine/Config/StagedBuild_Paparazi.ini	2026-02-06T09:17:29.274Z
 Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_api_dump.dll	2026-01-22T06:30:59.182Z
 Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_api_dump.json	2025-12-04T09:21:13.415Z
 Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_crash_diagnostic.dll	2026-01-22T06:30:59.183Z
@@ -104,4 +104,4 @@ Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_synchronization2.dll	202
 Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_synchronization2.json	2025-12-04T09:21:13.421Z
 Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_validation.dll	2026-01-22T06:30:59.194Z
 Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_validation.json	2025-12-04T09:21:13.453Z
-Paparazi.exe	2026-02-05T08:55:34.408Z
+Paparazi.exe	2026-02-06T09:17:29.270Z
